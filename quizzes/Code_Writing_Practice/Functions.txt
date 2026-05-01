@@ -1,0 +1,39 @@
+/* ----------------------------------------- */
+/*             FUNCTIONS - QUESTIONS         */
+/* ----------------------------------------- */
+
+/* ************ EASY QUESTION 1 ************ */
+
+Write a function `greet()` that prints `"Welcome to C++!"`, and call it from `main()`.
+
+/* ************ EASY QUESTION 2 ************ */
+
+Create a function `sayHello()` that prints a hello message. Call it from `main()`.
+
+/* ************ EASY QUESTION 3 ************ */
+
+Write a function `printStars()` that prints five asterisks using a loop.
+
+/* *********** MEDIUM QUESTION 1 *********** */
+
+Create a function that accepts a number and prints its square. Call it from `main()`.
+
+/* *********** MEDIUM QUESTION 2 *********** */
+
+Write a function `sum(int a, int b)` that returns their sum. Call it from `main()` and print the result.
+
+/* *********** MEDIUM QUESTION 3 *********** */
+
+Take two numbers as input in `main()`, pass them to a function, and print their sum.
+
+/* ********** DIFFICULT QUESTION 1 ********** */
+
+Write a function that calculates the factorial of a given number and returns the result.
+
+/* ********** DIFFICULT QUESTION 2 ********** */
+
+Write a function `isEven()` that returns `true` if a number is even, otherwise `false`. Use it in `main()`.
+
+/* ********** DIFFICULT QUESTION 3 ********** */
+
+Create a function `maxNum(a, b)` that returns the larger number. Use it with sample values in `main()`.

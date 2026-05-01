@@ -1,0 +1,59 @@
+/* ----------------------------------------- */
+/*                CASE_SWITCH                */
+/* ----------------------------------------- */
+
+/* ************ BASIC EXAMPLE 1 ************ */
+
+int x = 2;
+switch(x) {
+    case 1: cout << "One"; break;
+    case 2: cout << "Two"; break;
+}
+
+/* ************ BASIC EXAMPLE 2 ************ */
+
+char c = 'A';
+switch(c) {
+    case 'A': cout << "Apple"; break;
+    case 'B': cout << "Banana"; break;
+}
+
+/* ************ NORMAL EXAMPLE 1 ************ */
+
+int day = 3;
+switch(day) {
+    case 1: cout << "Mon"; break;
+    case 3: cout << "Wed"; break;
+    default: cout << "Other";
+}
+
+/* ************ NORMAL EXAMPLE 2 ************ */
+
+int level = 2;
+switch(level) {
+    case 1:
+    case 2: cout << "Beginner"; break;
+    case 3: cout << "Advanced"; break;
+}
+
+/* ************ HARD EXAMPLE 1 ************ */
+
+int option;
+cout << "1. Add 2. Subtract\n"; 
+cin >> option;
+switch(option) {
+    case 1: cout << "Addition"; break;
+    case 2: cout << "Subtraction"; break;
+    default: cout << "Invalid";
+}
+
+/* ************ HARD EXAMPLE 2 ************ */
+
+int category = 1, item = 2;
+switch(category) {
+    case 1:
+        switch(item) {
+            case 2: cout << "Item 2 in Category 1"; break;
+        }
+        break;
+}

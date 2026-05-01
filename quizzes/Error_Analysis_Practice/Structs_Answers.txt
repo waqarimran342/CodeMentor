@@ -1,0 +1,73 @@
+// ========== STRUCTS FIXED ==========
+
+/// Q1
+#include <iostream>
+using namespace std;
+
+struct Student {
+    string name;
+    int age;
+};
+
+int main() {
+    Student s;
+    s.name = "Ali";
+    s.age = 20;
+}
+
+/// Q2
+#include <iostream>
+using namespace std;
+
+struct Book {
+    string title;
+    int pages;
+};
+
+int main() {
+    Book b;
+    b.title = "C++ Basics";
+    b.pages = 100;
+}
+
+/// Q3
+#include <iostream>
+using namespace std;
+
+struct Car {
+    string model;
+    int year;
+};
+
+int main() {
+    Car c;
+    c.model = "Honda";
+    c.year = 2020;
+}
+
+/// Q4
+#include <iostream>
+using namespace std;
+
+struct Employee {
+    string name;
+    float salary;
+};
+
+int main() {
+    Employee e1 = {"Sara", 5000}; // Correct salary type
+    cout << e1.salary;
+}
+
+/// Q5
+#include <iostream>
+using namespace std;
+
+struct Point {
+    int x, y;
+};
+
+int main() {
+    Point p = {2, 3}; // Use curly braces
+    cout << p.x << " " << p.y;
+}

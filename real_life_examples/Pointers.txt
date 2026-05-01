@@ -1,0 +1,46 @@
+/****************************************************/
+/*                    POINTERS                      */
+/****************************************************/
+
+/************************************************************
+*  EXPLANATION:                                            *
+*  Pointers store memory addresses of variables. They let *
+*  you access or modify variables directly in memory,     *
+*  useful in advanced programming like dynamic memory,    *
+*  passing large data efficiently, or swapping values.    *
+************************************************************/
+
+
+/*************** EXAMPLE 1: POINTER BASICS - STORE ADDRESS AND ACCESS VALUE ***************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int var = 10;
+    int *ptr = &var;      // Pointer points to var's address
+    cout << "Value: " << *ptr << endl;   // Dereference to get value
+    cout << "Address: " << ptr << endl;  // Show pointer address
+    return 0;
+}
+
+
+/*************** EXAMPLE 2: SWAP TWO NUMBERS USING POINTERS ***************/
+
+#include <iostream>
+using namespace std;
+
+void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+int main() {
+    int x = 5, y = 10;
+    swap(&x, &y);
+    cout << "x = " << x << ", y = " << y;
+    return 0;
+}
+
+______________________________________________________________________________

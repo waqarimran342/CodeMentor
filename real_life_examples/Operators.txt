@@ -1,0 +1,40 @@
+/****************************************************/
+/*                    OPERATORS                     */
+/****************************************************/
+
+/************************************************************
+*  EXPLANATION:                                            *
+*  Operators perform operations on variables and values, *
+*  such as arithmetic (+, -, *, /) or comparisons (<, >). *
+*  They are essential for calculations and logic decisions.*
+************************************************************/
+
+
+/***************** EXAMPLE 1: BASIC ARITHMETIC OPERATIONS *****************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10, b = 5;
+    cout << "Sum: " << a + b << endl;
+    cout << "Difference: " << a - b << endl;
+    cout << "Product: " << a * b << endl;
+    cout << "Quotient: " << a / b << endl;
+    return 0;
+}
+
+
+/************ EXAMPLE 2: COMPARISON OPERATORS FOR DECISION MAKING ************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x = 10, y = 20;
+    if(x < y) cout << "x is less than y";
+    else cout << "x is not less than y";
+    return 0;
+}
+
+______________________________________________________________________________

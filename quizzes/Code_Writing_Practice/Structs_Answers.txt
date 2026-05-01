@@ -1,0 +1,89 @@
+/* ----------------------------------------- */
+/*              STRUCTS - ANSWERS            */
+/* ----------------------------------------- */
+
+/* ************ EASY QUESTION 1 ************ */
+
+struct Student {
+    string name;
+    int age;
+};
+Student s = {"Ali", 20};
+cout << s.name << " " << s.age;
+
+/* ************ EASY QUESTION 2 ************ */
+
+struct Car {
+    string model;
+    int year;
+};
+Car c = {"Toyota", 2022};
+cout << c.model;
+
+/* ************ EASY QUESTION 3 ************ */
+
+struct Book {
+    string title;
+    int pages;
+};
+Book b = {"C++ Guide", 300};
+cout << b.pages;
+
+/* *********** MEDIUM QUESTION 1 *********** */
+
+struct Product {
+    string name;
+    float price;
+};
+Product p;
+cin >> p.name >> p.price;
+cout << p.name << ": $" << p.price;
+
+/* *********** MEDIUM QUESTION 2 *********** */
+
+struct Point {
+    int x, y;
+};
+Point pt = {3, 4};
+cout << "X: " << pt.x << " Y: " << pt.y;
+
+/* *********** MEDIUM QUESTION 3 *********** */
+
+struct Employee {
+    string name;
+    int id;
+    float salary;
+};
+Employee e;
+cin >> e.name >> e.id >> e.salary;
+cout << e.name << " " << e.id << " $" << e.salary;
+
+/* ********** DIFFICULT QUESTION 1 ********** */
+
+struct Student {
+    string name;
+    int marks[3];
+};
+Student s = {"Ali", {80, 75, 90}};
+int total = s.marks[0] + s.marks[1] + s.marks[2];
+cout << total;
+
+/* ********** DIFFICULT QUESTION 2 ********** */
+
+struct Rectangle {
+    int length;
+    int width;
+};
+Rectangle r = {5, 3};
+cout << "Area = " << r.length * r.width;
+
+/* ********** DIFFICULT QUESTION 3 ********** */
+
+struct Movie {
+    string title;
+    int year;
+};
+Movie m[2] = {{"Inception", 2010}, {"Avatar", 2009}};
+for (int i = 0; i < 2; i++) {
+    cout << m[i].title << " " << m[i].year << endl;
+}

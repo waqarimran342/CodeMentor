@@ -1,0 +1,62 @@
+// ========== FUNCTIONS FIXED ==========
+
+/// Q1
+#include <iostream>
+using namespace std;
+
+int sum(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    cout << sum(2, 3);
+}
+
+/// Q2
+#include <iostream>
+using namespace std;
+
+int multiply(int x, int y) {
+    return x * y;
+}
+
+int main() {
+    cout << multiply(4, 5);
+}
+
+/// Q3
+#include <iostream>
+using namespace std;
+
+void show() {
+    cout << "Hello";
+}
+
+int main() {
+    show();
+}
+
+/// Q4
+#include <iostream>
+using namespace std;
+
+int add(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    cout << add(3, 4);
+}
+
+/// Q5
+#include <iostream>
+using namespace std;
+
+void greet() {
+    cout << "Hi";
+}
+
+int main() {
+    greet();
+    return 0;
+}

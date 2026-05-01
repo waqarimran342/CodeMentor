@@ -1,0 +1,23 @@
+/* ----------------------------------------- */
+/*                STRINGS                    */
+/* ----------------------------------------- */
+
+/* *********** DRY RUN QUESTION 1 ********** */
+string s = "Hello";
+cout << s;
+
+/* *********** DRY RUN QUESTION 2 ********** */
+string s = "Hello";
+cout << s.size();
+
+/* *********** DRY RUN QUESTION 3 ********** */
+string s = "World!";
+cout << s;
+
+/* *********** DRY RUN QUESTION 4 ********** */
+string s = "Programming";
+cout << s;
+
+/* *********** DRY RUN QUESTION 5 ********** */
+string s = "YES";
+cout << s;

@@ -1,0 +1,38 @@
+/* ----------------------------------------- */
+/*             INPUT_OUTPUT                  */
+/* ----------------------------------------- */
+
+/* *********** DRY RUN PRACTICE 1 *********** */
+
+// Input: 4
+int x;
+cin >> x;
+cout << x * 2;
+
+/* *********** DRY RUN PRACTICE 2 *********** */
+
+// Input: John
+string name;
+cin >> name;
+cout << "Hello " << name;
+
+/* *********** DRY RUN PRACTICE 3 *********** */
+
+// Input: 2 5
+int a, b;
+cin >> a >> b;
+cout << a + b;
+
+/* *********** DRY RUN PRACTICE 4 *********** */
+
+// Input: 10.5
+float val;
+cin >> val;
+cout << (int)val;
+
+/* *********** DRY RUN PRACTICE 5 *********** */
+
+// Input: 3 4
+int m, n;
+cin >> m >> n;
+cout << m * n;

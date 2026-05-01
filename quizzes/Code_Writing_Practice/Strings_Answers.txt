@@ -1,0 +1,75 @@
+/* ----------------------------------------- */
+/*              STRINGS - ANSWERS            */
+/* ----------------------------------------- */
+
+/* ************ EASY QUESTION 1 ************ */
+
+string name;
+cin >> name;
+cout << "Welcome " << name;
+
+/* ************ EASY QUESTION 2 ************ */
+
+string s1 = "Hello", s2 = "World";
+cout << s1 + " " + s2;
+
+/* ************ EASY QUESTION 3 ************ */
+
+string word;
+cin >> word;
+cout << word.length();
+
+/* *********** MEDIUM QUESTION 1 *********** */
+
+string str;
+cin >> str;
+for (int i = 0; i < str.length(); i++) {
+    cout << str[i] << " ";
+}
+
+/* *********** MEDIUM QUESTION 2 *********** */
+
+string s;
+cin >> s;
+reverse(s.begin(), s.end());
+cout << s;
+
+/* *********** MEDIUM QUESTION 3 *********** */
+
+string a = "Good", b = "Morning";
+string result = a + " " + b;
+cout << result;
+
+/* ********** DIFFICULT QUESTION 1 ********** */
+
+string str;
+getline(cin, str);
+for (char &c : str) {
+    c = toupper(c);
+}
+cout << str;
+
+/* ********** DIFFICULT QUESTION 2 ********** */
+
+string str;
+getline(cin, str);
+int vowels = 0;
+for (char c : str) {
+    c = tolower(c);
+    if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
+        vowels++;
+}
+cout << vowels;
+
+/* ********** DIFFICULT QUESTION 3 ********** */
+
+string s;
+cin >> s;
+bool palindrome = true;
+for (int i = 0; i < s.length() / 2; i++) {
+    if (s[i] != s[s.length() - 1 - i]) {
+        palindrome = false;
+        break;
+    }
+}
+cout << (palindrome ? "Palindrome" : "Not Palindrome");

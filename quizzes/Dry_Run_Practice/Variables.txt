@@ -1,0 +1,23 @@
+/* ----------------------------------------- */
+/*               VARIABLES                   */
+/* ----------------------------------------- */
+
+/* *********** DRY RUN QUESTION 1 ********** */
+int a = 10;
+cout << a;
+
+/* *********** DRY RUN QUESTION 2 ********** */
+int x = 25;
+cout << x;
+
+/* *********** DRY RUN QUESTION 3 ********** */
+float pi = 3.14;
+cout << pi;
+
+/* *********** DRY RUN QUESTION 4 ********** */
+char z = 'z';
+cout << z;
+
+/* *********** DRY RUN QUESTION 5 ********** */
+int sum = 10 + 5;
+cout << sum;

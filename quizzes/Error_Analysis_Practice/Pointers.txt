@@ -1,0 +1,36 @@
+// ========== POINTERS ==========
+
+/// Q1
+int main() {
+    int a = 10;
+    int *p;
+    *p = &a;
+    cout << *p;
+}
+
+/// Q2
+int main() {
+    int x = 5;
+    int *ptr = x;
+    cout << *ptr;
+}
+
+/// Q3
+int main() {
+    int *p;
+    cout << *p;
+}
+
+/// Q4
+int main() {
+    int a = 7;
+    int *ptr = &a;
+    cout << ptr*;
+}
+
+/// Q5
+int main() {
+    int x = 20;
+    int *p = &x;
+    cout << &*p;
+}

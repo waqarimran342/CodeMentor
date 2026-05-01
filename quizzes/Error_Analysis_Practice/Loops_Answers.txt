@@ -1,0 +1,131 @@
+// ========== FOR LOOP FIXED ==========
+
+/// Q1
+int main() {
+    int sum = 0;
+    for (int i = 0; i < 5; i++)
+        sum += i;
+    cout << sum;
+}
+
+/// Q2
+int main() {
+    for (int i = 1; i <= 5; i++) {
+        cout << i << " ";
+    }
+}
+
+/// Q3
+int main() {
+    for (int i = 0; i < 5; i++) {
+        cout << i << " ";
+    }
+    // Fix: i not accessible here
+    // Solution: define i outside if needed
+}
+
+/// Q4
+int main() {
+    int i;
+    for (i = 0; i < 10; i++)
+        cout << i << endl;
+}
+
+/// Q5
+int main() {
+    for (int i = 0; i <= 5; i++)
+        cout << "i = " << i << endl;
+}
+// ========== WHILE LOOP FIXED ==========
+
+/// Q1
+int main() {
+    int i = 0;
+    while (i < 5) {
+        cout << i;
+        i++;
+    }
+}
+
+/// Q2
+int main() {
+    int i = 10;
+    while (i > 0) {
+        cout << i-- << " ";
+    }
+    cout << "Done";
+}
+
+/// Q3
+int main() {
+    int count = 1;
+    while (count <= 5) {
+        cout << count++ << endl;
+    }
+}
+
+/// Q4
+int main() {
+    int x = 3;
+    while (x != 0) {
+        cout << x;
+        x--; // add decrement to avoid infinite loop
+    }
+}
+
+/// Q5
+// Fix: No else with while loop
+int main() {
+    int i = 0;
+    while (i < 3) {
+        i++;
+    }
+    cout << "Done";
+}
+// ========== DO-WHILE LOOP FIXED ==========
+
+/// Q1
+int main() {
+    int i = 0;
+    do {
+        cout << i;
+        i++;
+    } while (i < 5);
+}
+
+/// Q2
+int main() {
+    int x = 0;
+    do {
+        cout << x;
+        x++;
+    } while (x < 3);
+}
+
+/// Q3
+int main() {
+    int i = 5;
+    do {
+        cout << i << " ";
+        i--;
+    } while (i >= 0);
+}
+
+/// Q4
+int main() {
+    int count = 0;
+    do {
+        count++;
+    } while (count != 10);
+    cout << count;
+}
+
+/// Q5
+int main() {
+    int i = 1;
+    do {
+        cout << i << endl;
+        i += 2;
+    } while (i < 10);
+    cout << "Done";
+}

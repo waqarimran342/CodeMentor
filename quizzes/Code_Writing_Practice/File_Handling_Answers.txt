@@ -1,0 +1,133 @@
+/* ----------------------------------------- */
+/*           FILE_HANDLING - ANSWERS         */
+/* ----------------------------------------- */
+
+/* ************ EASY QUESTION 1 ************ */
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+int main() {
+    ofstream file("example.txt");
+    file << "Hello, File!";
+    file.close();
+    return 0;
+}
+
+/* ************ EASY QUESTION 2 ************ */
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+int main() {
+    ofstream file("data.txt");
+    file << "C++ File Handling";
+    file.close();
+    cout << "Written successfully!";
+    return 0;
+}
+
+/* ************ EASY QUESTION 3 ************ */
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+int main() {
+    ofstream fout("num.txt");
+    int num = 25;
+    fout << num;
+    fout.close();
+    return 0;
+}
+
+/* *********** MEDIUM QUESTION 1 *********** */
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+int main() {
+    ifstream fin("example.txt");
+    string data;
+    getline(fin, data);
+    cout << "File Content: " << data;
+    fin.close();
+    return 0;
+}
+
+/* *********** MEDIUM QUESTION 2 *********** */
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+int main() {
+    ofstream fout("multi.txt");
+    for(int i = 1; i <= 5; i++) {
+        fout << "Line " << i << endl;
+    }
+    fout.close();
+    return 0;
+}
+
+/* *********** MEDIUM QUESTION 3 *********** */
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+int main() {
+    ifstream fin("multi.txt");
+    string line;
+    while(getline(fin, line)) {
+        cout << line << endl;
+    }
+    fin.close();
+    return 0;
+}
+
+/* ********** DIFFICULT QUESTION 1 ********** */
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+int main() {
+    string name;
+    int age;
+    cout << "Enter name and age: ";
+    cin >> name >> age;
+    ofstream fout("user.txt");
+    fout << name << " " << age;
+    fout.close();
+    return 0;
+}
+
+/* ********** DIFFICULT QUESTION 2 ********** */
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+int main() {
+    ofstream fout("numbers.txt");
+    for(int i = 1; i <= 10; i++) fout << i << " ";
+    fout.close();
+
+    ifstream fin("numbers.txt");
+    int x, sum = 0;
+    while(fin >> x) sum += x;
+    cout << "Sum = " << sum;
+    fin.close();
+    return 0;
+}
+
+/* ********** DIFFICULT QUESTION 3 ********** */
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+int main() {
+    ifstream fin("user.txt");
+    string name;
+    int age;
+    fin >> name >> age;
+    cout << "Name: " << name << "\nAge: " << age;
+    fin.close();
+    return 0;
+}

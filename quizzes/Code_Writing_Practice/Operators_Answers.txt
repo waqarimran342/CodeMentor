@@ -1,0 +1,62 @@
+/* ----------------------------------------- */
+/*            OPERATORS - ANSWERS            */
+/* ----------------------------------------- */
+
+/* ************ EASY QUESTION 1 ************ */
+
+int a, b;
+cin >> a >> b;
+cout << a + b << " " << a - b << " " << a * b;
+
+/* ************ EASY QUESTION 2 ************ */
+
+int x, y;
+cin >> x >> y;
+if (x > y) cout << "X is greater";
+else cout << "Y is greater";
+
+/* ************ EASY QUESTION 3 ************ */
+
+int n;
+cin >> n;
+if (n >= 10 && n <= 100) cout << "Yes";
+else cout << "No";
+
+/* *********** MEDIUM QUESTION 1 *********** */
+
+int a = 5;
+cout << ++a << endl;  // Pre-increment
+cout << a++ << endl;  // Post-increment
+cout << a;
+
+/* *********** MEDIUM QUESTION 2 *********** */
+
+int x = 5;
+x += 10;
+x *= 2;
+cout << x;
+
+/* *********** MEDIUM QUESTION 3 *********** */
+
+int n;
+cin >> n;
+if (n % 3 == 0 && n % 5 == 0) cout << "Yes";
+
+/* ********** DIFFICULT QUESTION 1 ********** */
+
+int a, b;
+cin >> a >> b;
+cout << a + b << " " << a - b << " " << a * b << " " << a / b << " " << a % b;
+
+/* ********** DIFFICULT QUESTION 2 ********** */
+
+int n;
+cin >> n;
+cout << ((n % 2 == 0) ? "Even" : "Odd");
+
+/* ********** DIFFICULT QUESTION 3 ********** */
+
+bool a = true, b = false;
+cout << (a && b) << endl;
+cout << (a || b) << endl;
+cout << (!a);

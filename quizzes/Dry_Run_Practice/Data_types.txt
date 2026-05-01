@@ -1,0 +1,30 @@
+/* ----------------------------------------- */
+/*               DATA_TYPES                  */
+/* ----------------------------------------- */
+
+/* *********** DRY RUN PRACTICE 1 *********** */
+
+int x = 5;
+float y = 2;
+cout << x / y;
+
+/* *********** DRY RUN PRACTICE 2 *********** */
+
+char ch = 65;
+cout << ch;
+
+/* *********** DRY RUN PRACTICE 3 *********** */
+
+double pi = 3.14159;
+cout << (int)pi;
+
+/* *********** DRY RUN PRACTICE 4 *********** */
+
+bool a = true, b = false;
+cout << a + b;
+
+/* *********** DRY RUN PRACTICE 5 *********** */
+
+int val = 7;
+char letter = val + 48;
+cout << letter;

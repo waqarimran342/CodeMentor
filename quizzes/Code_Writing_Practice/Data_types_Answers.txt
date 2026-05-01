@@ -1,0 +1,125 @@
+/* ----------------------------------------- */
+/*           DATA_TYPES - ANSWERS            */
+/* ----------------------------------------- */
+
+/* ************ EASY QUESTION 1 ************ */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int a = 5;
+    float b = 5.5;
+    char c = 'A';
+    cout << "Int: " << a << "\nFloat: " << b << "\nChar: " << c;
+    return 0;
+}
+
+/* ************ EASY QUESTION 2 ************ */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int x = 5, y = 2;
+    cout << "Integer Division: " << x / y << endl;
+    cout << "Float Division: " << (float)x / y;
+    return 0;
+}
+
+/* ************ EASY QUESTION 3 ************ */
+
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "Size of int: " << sizeof(int) << " bytes\n";
+    cout << "Size of float: " << sizeof(float) << " bytes\n";
+    cout << "Size of char: " << sizeof(char) << " bytes\n";
+    cout << "Size of bool: " << sizeof(bool) << " bytes";
+    return 0;
+}
+
+/* *********** MEDIUM QUESTION 1 *********** */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int x;
+    float y;
+    cout << "Enter integer and float: ";
+    cin >> x >> y;
+    cout << "Multiplication = " << x * y;
+    return 0;
+}
+
+/* *********** MEDIUM QUESTION 2 *********** */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int num;
+    bool isPositive;
+    cout << "Enter a number: ";
+    cin >> num;
+    isPositive = num > 0;
+    cout << "Is Positive? " << isPositive;
+    return 0;
+}
+
+/* *********** MEDIUM QUESTION 3 *********** */
+
+#include <iostream>
+using namespace std;
+int main() {
+    char ch;
+    int ascii;
+    cout << "Enter a character: ";
+    cin >> ch;
+    ascii = (int)ch;
+    cout << "ASCII Value = " << ascii << endl;
+    cout << "Char from ASCII 65 = " << (char)65;
+    return 0;
+}
+
+/* ********** DIFFICULT QUESTION 1 ********** */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int a = 5;
+    float b = 10.5, temp;
+    temp = a;
+    a = b;
+    b = temp;
+    cout << "After Swap: Int = " << a << ", Float = " << b;
+    return 0;
+}
+
+/* ********** DIFFICULT QUESTION 2 ********** */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int a;
+    float b;
+    char c;
+    cout << "Enter int, float, and char: ";
+    cin >> a >> b >> c;
+    cout << "Sum of int & float = " << a + b << endl;
+    cout << "Char = " << c << ", ASCII = " << (int)c;
+    return 0;
+}
+
+/* ********** DIFFICULT QUESTION 3 ********** */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int a = 9;
+    float b = 5.7;
+
+    float implicitConv = a;       // int to float
+    int explicitConv = (int)b;    // float to int
+
+    cout << "Implicit (int to float): " << implicitConv << endl;
+    cout << "Explicit (float to int): " << explicitConv;
+    return 0;
+}

@@ -1,0 +1,25 @@
+ ************************************************************************************
+			         VARIABLES
+ ************************************************************************************
+
+		Variables store data that can be used and modified.
+
+SYNTAX:
+		data_type variable_name = value;
+
+EXAMPLE:
+		int age = 20;
+
+TYPES:
+		- Local: declared inside functions
+		- Global: declared outside all functions
+		- Static: retains value between calls
+		- Const: value cannot change
+
+KEY POINTS:
+		- Must be declared before use.
+		- Good practice to initialize.
+
+EXCEPTION:
+		Uninitialized variables contain garbage values.
+____________________________________________________________________________________

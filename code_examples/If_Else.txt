@@ -1,0 +1,44 @@
+/* ----------------------------------------- */
+/*                 IF_ELSE                   */
+/* ----------------------------------------- */
+
+/* ************ BASIC EXAMPLE 1 ************ */
+
+int age = 18;
+if (age >= 18) cout << "Adult";
+else cout << "Minor";
+
+/* ************ BASIC EXAMPLE 2 ************ */
+
+int x = 5;
+if (x % 2 == 0) cout << "Even";
+else cout << "Odd";
+
+/* ************ NORMAL EXAMPLE 1 ************ */
+
+int marks = 80;
+if (marks >= 90) cout << "A";
+else if (marks >= 70) cout << "B";
+else cout << "C";
+
+/* ************ NORMAL EXAMPLE 2 ************ */
+
+int x = -10;
+if (x > 0) cout << "Positive";
+else if (x < 0) cout << "Negative";
+else cout << "Zero";
+
+/* ************ HARD EXAMPLE 1 ************ */
+
+int a = 5, b = 8, c = 3;
+if (a > b && a > c) cout << "A is max";
+else if (b > c) cout << "B is max";
+else cout << "C is max";
+
+/* ************ HARD EXAMPLE 2 ************ */
+
+char ch = 'e';
+if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z'))
+    cout << "Alphabet";
+else
+    cout << "Not an alphabet";

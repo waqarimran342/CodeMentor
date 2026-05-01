@@ -1,0 +1,44 @@
+/* ----------------------------------------- */
+/*               INPUT_OUTPUT                */
+/* ----------------------------------------- */
+
+/* ************ BASIC EXAMPLE 1 ************ */
+
+int x;
+cout << "Enter a number: ";
+cin >> x;
+cout << "You entered: " << x;
+
+/* ************ BASIC EXAMPLE 2 ************ */
+
+string name;
+cin >> name;
+cout << "Hello, " << name << "!";
+
+/* ************ NORMAL EXAMPLE 1 ************ */
+
+string first, last;
+cout << "Enter full name: ";
+cin >> first >> last;
+cout << "Name: " << first << " " << last;
+
+/* ************ NORMAL EXAMPLE 2 ************ */
+
+int age;
+float height;
+cin >> age >> height;
+cout << "Age: " << age << ", Height: " << height;
+
+/* ************ HARD EXAMPLE 1 ************ */
+
+string fullName;
+cin.ignore(); // clear buffer
+getline(cin, fullName);
+cout << "Your name: " << fullName;
+
+/* ************ HARD EXAMPLE 2 ************ */
+
+char str[50];
+cout << "Enter a sentence: ";
+cin.get(str, 50);
+cout << "You wrote: " << str;

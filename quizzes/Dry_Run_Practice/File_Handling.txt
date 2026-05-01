@@ -1,0 +1,37 @@
+/* ----------------------------------------- */
+/*             FILE_HANDLING                 */
+/* ----------------------------------------- */
+
+/* *********** DRY RUN PRACTICE 1 *********** */
+
+ofstream fout("demo.txt");
+fout << "Hi";
+fout.close();
+
+/* *********** DRY RUN PRACTICE 2 *********** */
+
+ofstream file("nums.txt");
+file << 5 << " " << 10;
+file.close();
+
+/* *********** DRY RUN PRACTICE 3 *********** */
+
+ifstream fin("data.txt");
+string word;
+fin >> word;
+cout << word;
+fin.close();
+
+/* *********** DRY RUN PRACTICE 4 *********** */
+
+ofstream out("test.txt");
+out << 100 << endl << 200;
+out.close();
+
+/* *********** DRY RUN PRACTICE 5 *********** */
+
+ifstream input("msg.txt");
+char ch;
+input.get(ch);
+cout << ch;
+input.close();

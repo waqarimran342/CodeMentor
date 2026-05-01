@@ -1,0 +1,124 @@
+/****************************************************/
+/*                    FOR LOOP                      */
+/****************************************************/
+
+/************************************************************
+*  EXPLANATION:                                            *
+*  A `for` loop is best when you know exactly how many    *
+*  times you want to repeat a task.                        *
+************************************************************/
+
+
+/*************** EXAMPLE 1: PRINT NUMBERS FROM 1 TO 5 ***************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    for(int i = 1; i <= 5; i++) {
+        cout << i << " ";
+    }
+    return 0;
+}
+
+
+/*************** EXAMPLE 2: PRINT SQUARE OF FIRST 5 NUMBERS ***************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    for(int i = 1; i <= 5; i++) {
+        cout << "Square of " << i << " is " << i * i << endl;
+    }
+    return 0;
+}
+
+
+
+/****************************************************/
+/*                   WHILE LOOP                     */
+/****************************************************/
+
+/************************************************************
+*  EXPLANATION:                                            *
+*  A `while` loop repeats a block of code **as long as**   *
+*  a condition is true. Use it when the number of          *
+*  repetitions is **not fixed**.                            *
+************************************************************/
+
+
+/*************** EXAMPLE 1: PRINT NUMBERS FROM 1 TO 5 ***************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i = 1;
+    while(i <= 5) {
+        cout << i << " ";
+        i++;
+    }
+    return 0;
+}
+
+
+/*************** EXAMPLE 2: KEEP ASKING PASSWORD UNTIL CORRECT ***************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    string password;
+    while(password != "1234") {
+        cout << "Enter password: ";
+        cin >> password;
+    }
+    cout << "Access granted!" << endl;
+    return 0;
+}
+
+
+
+/****************************************************/
+/*                  DO-WHILE LOOP                   */
+/****************************************************/
+
+/************************************************************
+*  EXPLANATION:                                            *
+*  A `do-while` loop always runs **at least once** even if *
+*  the condition is false. Useful for menus or retry inputs.*
+************************************************************/
+
+
+/*************** EXAMPLE 1: SHOW MENU AT LEAST ONCE ***************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int choice;
+    do {
+        cout << "Menu:\n1. Start\n2. Exit\nEnter choice: ";
+        cin >> choice;
+    } while(choice != 2);
+    cout << "Exited program." << endl;
+    return 0;
+}
+
+
+/*************** EXAMPLE 2: ASK NUMBER UNTIL USER ENTERS NUMBER > 0 ***************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    do {
+        cout << "Enter a positive number: ";
+        cin >> num;
+    } while(num <= 0);
+    cout << "You entered: " << num << endl;
+    return 0;
+}
+__________________________________________________________________________________

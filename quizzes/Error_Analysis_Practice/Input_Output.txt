@@ -1,0 +1,38 @@
+// ========== INPUT/OUTPUT ==========
+
+/// Q1
+int main() {
+    int x;
+    cin << x;
+    cout << x;
+}
+
+/// Q2
+int main() {
+    string name;
+    cout << "Enter name: ";
+    cin name;
+    cout << "Hello " << name;
+}
+
+/// Q3
+int main() {
+    char ch;
+    cout << "Enter char: ";
+    cin >> ch;
+    cout >> ch;
+}
+
+/// Q4
+int main() {
+    int a, b;
+    cout << "Enter two numbers: ";
+    cin >> a b;
+    cout << a + b;
+}
+
+/// Q5
+int main() {
+    int x;
+    cout << "Value of x is: " << x << endl;
+}

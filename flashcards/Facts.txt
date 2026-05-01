@@ -1,0 +1,71 @@
+1. */>< C++ is an extension of the C programming language and supports both procedural and object-oriented programming.
+
+2. */>< Every C++ program must have a `main()` function, which is the entry point of the program.
+
+3. */>< Variables in C++ must be declared before they are used, and they are case-sensitive.
+
+4. */>< The `int` data type stores whole numbers like 1, 2, 100, or -45.
+
+5. */>< The `float` and `double` data types are used to store decimal numbers, where `double` has higher precision.
+
+6. */>< `char` stores a single character and is enclosed in single quotes, like `'A'`.
+
+7. */>< Strings in C++ can be handled using character arrays or the `string` class from the `<string>` header.
+
+8. */>< You must include the header file `#include <iostream>` to use `cin` and `cout` for input/output.
+
+9. */>< The `cin` object is used to take input from the user and `cout` is used to display output.
+
+10. */>< The `for` loop is best when the number of iterations is known ahead of time.
+
+11. */>< A `while` loop checks the condition before executing the loop body.
+
+12. */>< A `do-while` loop executes at least once, regardless of the condition.
+
+13. */>< The `switch-case` structure is an alternative to multiple `if-else` statements and is cleaner for specific value checks.
+
+14. */>< A `break` statement is used in loops or switch-cases to exit immediately.
+
+15. */>< C++ supports both single-line (`//`) and multi-line (`/* */`) comments.
+
+16. */>< The `sizeof()` operator is used to find the memory size of data types and variables.
+
+17. */>< Arrays in C++ are fixed in size and must be initialized with the number of elements at compile time.
+
+18. */>< Strings in C++ can be traversed using loops just like arrays.
+
+19. */>< File handling in C++ uses `ifstream` for reading and `ofstream` for writing files.
+
+20. */>< Always check if a file opened successfully using `file.is_open()` before reading or writing.
+
+21. */>< Structs group multiple variables under one name and can contain different data types.
+
+22. */>< You can access struct members using the dot (`.`) operator.
+
+23. */>< Pointers store memory addresses and are declared using the `*` symbol.
+
+24. */>< The `&` operator is used to get the address of a variable.
+
+25. */>< Functions help in breaking code into reusable blocks and can return values or be void.
+
+26. */>< Parameters in functions can be passed by value or by reference.
+
+27. */>< Arrays are passed to functions by reference by default.
+
+28. */>< Switch-case does not support ranges or conditions — only constant values.
+
+29. */>< Strings from the `<string>` header support powerful operations like `.length()`, `.substr()`, `.find()`, etc.
+
+30. */>< The `return` statement ends a function and sends a value back to the caller.
+
+31. */>< You can overload functions in C++ by changing the type or number of parameters.
+
+32. */>< Input validation is essential to prevent invalid or dangerous input.
+
+33. */>< `system("cls")` is used to clear the screen in Windows console applications.
+
+34. */>< Global variables are declared outside all functions and can be accessed anywhere in the program.
+
+35. */>< Always close a file using `file.close()` after you’re done to free system resources.
+
+

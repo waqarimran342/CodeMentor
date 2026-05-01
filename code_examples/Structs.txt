@@ -1,0 +1,70 @@
+/* ----------------------------------------- */
+/*                  STRUCTS                  */
+/* ----------------------------------------- */
+
+/* ************ BASIC EXAMPLE 1 ************ */
+
+struct Person {
+    string name;
+    int age;
+};
+Person p1 = {"Alice", 25};
+cout << p1.name << " is " << p1.age << " years old.";
+
+/* ************ BASIC EXAMPLE 2 ************ */
+
+struct Point {
+    int x, y;
+};
+Point pt = {10, 20};
+cout << "X: " << pt.x << ", Y: " << pt.y;
+
+/* ************ NORMAL EXAMPLE 1 ************ */
+
+struct Student {
+    string name;
+    float marks;
+};
+Student s;
+cin >> s.name >> s.marks;
+cout << "Student " << s.name << " scored " << s.marks;
+
+/* ************ NORMAL EXAMPLE 2 ************ */
+
+struct Book {
+    string title;
+    int pages;
+};
+Book b[2] = {{"C++ Guide", 250}, {"Data Structures", 300}};
+for (int i = 0; i < 2; i++) {
+    cout << b[i].title << " - " << b[i].pages << " pages" << endl;
+}
+
+/* ************ HARD EXAMPLE 1 ************ */
+
+struct Employee {
+    string name;
+    int id;
+    float salary;
+};
+void display(Employee e) {
+    cout << "Name: " << e.name << ", ID: " << e.id << ", Salary: " << e.salary;
+}
+Employee emp = {"John", 1001, 50000};
+display(emp);
+
+/* ************ HARD EXAMPLE 2 ************ */
+
+struct Complex {
+    float real;
+    float imag;
+};
+Complex add(Complex a, Complex b) {
+    Complex result;
+    result.real = a.real + b.real;
+    result.imag = a.imag + b.imag;
+    return result;
+}
+Complex c1 = {2.5, 3.5}, c2 = {1.5, 2.5};
+Complex sum = add(c1, c2);
+cout << "Sum = " << sum.real << " + " << sum.imag << "i";

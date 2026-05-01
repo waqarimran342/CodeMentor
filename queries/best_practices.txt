@@ -1,0 +1,85 @@
+/* ----------------------------------------- */
+/*          C++ BEST PRACTICES GUIDE         */
+/* ----------------------------------------- */
+
+1. VARIABLES
+------------
+- Use meaningful variable names (e.g., totalMarks instead of tm).
+- Initialize variables before use.
+- Use appropriate data types for memory efficiency.
+- Use `const` for constants to prevent accidental modification.
+
+2. INPUT / OUTPUT
+-----------------
+- Use `cin` and `cout` for console I/O.
+- Always prompt the user clearly before input.
+- Flush output if needed using `cout << flush;` or `endl`.
+
+3. OPERATORS
+------------
+- Avoid unnecessary use of increment/decrement inside complex expressions.
+- Use parentheses to clarify order of operations.
+- Be careful with integer division (`int a = 5 / 2;` gives 2).
+
+4. CONDITIONALS (IF-ELSE)
+-------------------------
+- Always use braces `{}` even for single-line blocks.
+- Avoid deep nesting by using logical operators or separate functions.
+- Clearly comment the purpose of complex conditions.
+
+5. SWITCH-CASE
+--------------
+- Use `break` after each case to avoid fall-through.
+- Use `default` to handle unexpected values.
+- Switch is best for discrete integral values, not ranges.
+
+6. LOOPS
+--------
+- Use `for` when number of iterations is known; `while` for unknown.
+- Avoid infinite loops by ensuring loop termination.
+- Don’t modify loop counters inside the loop unless necessary.
+
+7. FUNCTIONS
+------------
+- Keep functions short and focused on one task.
+- Use meaningful names and proper parameter types.
+- Use `void` if the function doesn't return a value.
+- Use function prototypes if defining functions below `main()`.
+
+8. ARRAYS
+---------
+- Always access within bounds to avoid undefined behavior.
+- Initialize arrays if values are needed right away.
+- Use loops to process arrays, avoid hardcoded indexes.
+
+9. STRINGS
+----------
+- Prefer `string` over C-style character arrays for safety and convenience.
+- Use `.length()` or `.size()` instead of manually counting characters.
+- Be mindful of whitespace input with `cin`, use `getline()` when needed.
+
+10. POINTERS
+------------
+- Initialize pointers to `nullptr` before use.
+- Avoid dangling pointers (pointers to deleted or local variables).
+- Use pointers only when necessary for dynamic memory or functions.
+
+11. STRUCTS
+-----------
+- Group related data using `struct` for better organization.
+- Use dot `.` operator for accessing members.
+- Prefer structs over global variables for encapsulation.
+
+12. FILE HANDLING
+-----------------
+- Always check if file opened successfully using `file.is_open()`.
+- Close files with `file.close()` after operations.
+- Use `ifstream` for reading and `ofstream` for writing.
+
+13. GENERAL TIPS
+----------------
+- Comment complex logic and use consistent indentation.
+- Keep your code DRY (Don't Repeat Yourself).
+- Use `system("cls");` or `system("clear");` for screen clearing (only for practice, not portable).
+- Always test edge cases.
+- Use version control (like Git) for managing changes in larger projects.

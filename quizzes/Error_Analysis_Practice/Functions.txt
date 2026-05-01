@@ -1,0 +1,46 @@
+// ========== FUNCTIONS ==========
+
+/// Q1
+int sum(int a, int b) {
+    return a + b;
+
+int main() {
+    cout << sum(2, 3);
+}
+
+/// Q2
+int main() {
+    cout << multiply(4, 5);
+}
+
+int multiply(int x, int y) {
+    return x * y;
+}
+
+/// Q3
+void show() {
+    cout << "Hello";
+}
+
+int main() {
+    int result = show();
+    cout << result;
+}
+
+/// Q4
+int main() {
+    int add(int a, int b) {
+        return a + b;
+    }
+    cout << add(3, 4);
+}
+
+/// Q5
+int greet() {
+    cout << "Hi";
+}
+
+int main() {
+    greet();
+    return 0;
+}

@@ -1,0 +1,30 @@
+ ************************************************************************************
+			         IF-ELSE
+ ************************************************************************************
+
+		Used for decision making in C++.
+
+SYNTAX:
+		if (condition) {
+		  // code
+		} else if (condition) {
+		  // code
+		} else {
+		  // code
+		}
+
+EXAMPLE:
+		int age = 20;
+		if (age >= 18) {
+		  cout << "Adult";
+		} else {
+		  cout << "Minor";
+		}
+
+KEY POINTS:
+		- Conditions must return a boolean value.
+		- Use {} to avoid logical errors.
+
+EXCEPTION:
+		Assignment (=) instead of equality (==) in condition is a common bug.
+_________________________________________________________________________________________

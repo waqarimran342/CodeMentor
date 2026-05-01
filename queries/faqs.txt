@@ -1,0 +1,73 @@
+/* ----------------------------------------- */
+/*            C++ FREQUENTLY ASKED           */
+/*              QUESTIONS (FAQ)              */
+/* ----------------------------------------- */
+
+
+/* ************ BEGINNER LEVEL ************ */
+
+Q1: What is the difference between C and C++?  
+A: C is a procedural language, while C++ supports both procedural and object-oriented programming.
+
+Q2: What is the use of 'using namespace std;'?  
+A: It allows direct access to elements in the standard namespace (like cout, cin) without prefixing 'std::'.
+
+Q3: What is the difference between '==' and '='?  
+A: '==' is a comparison operator; '=' is an assignment operator.
+
+Q4: What happens if we don’t initialize a variable?  
+A: It contains garbage (random) value which can cause unexpected behavior.
+
+Q5: What is the purpose of a header file?  
+A: It contains declarations (like functions, constants, macros) that can be reused in different programs.
+
+Q6: Why should I use functions in my program?  
+A: To break code into reusable and manageable blocks.
+
+Q7: What is the purpose of the 'main' function?  
+A: It is the entry point of every C++ program. Execution begins from here.
+
+Q8: How can I clear the console screen in C++?  
+A: Use `system("cls");` for Windows or `system("clear");` for Linux/Mac (for learning only, not portable).
+
+
+/* ********** INTERMEDIATE LEVEL ********** */
+
+Q9: What is a pointer?  
+A: A pointer stores the memory address of another variable.
+
+Q10: What is the difference between a reference and a pointer?  
+A: A reference is an alias to a variable, while a pointer holds an address and can be reassigned.
+
+Q11: What is the use of 'const' keyword?  
+A: It makes variables or parameters read-only (immutable).
+
+Q12: What is function overloading?  
+A: Defining multiple functions with the same name but different parameters.
+
+Q13: How are arrays and strings different?  
+A: Arrays can hold any data type, strings are specifically for text and offer string-specific functions.
+
+Q14: What is the purpose of 'break' and 'continue' in loops?  
+A: 'break' exits the loop early; 'continue' skips the current iteration.
+
+Q15: Why is file handling used in C++?  
+A: To store, retrieve, and manage data in files for long-term storage.
+
+
+/* ************ ADVANCED LEVEL ************ */
+
+Q16: What is the difference between 'public', 'private', and 'protected' in classes?  
+A: 'public' members are accessible everywhere, 'private' only within the class, and 'protected' within class and subclasses.
+
+Q17: What are the basic OOP concepts in C++?  
+A: Encapsulation, Abstraction, Inheritance, and Polymorphism.
+
+Q18: What is the difference between stack and heap memory?  
+A: Stack is for static memory allocation (local variables), heap is for dynamic memory (using new/delete).
+
+Q19: How is memory allocated dynamically?  
+A: Using `new` and released using `delete`.
+
+Q20: What is a segmentation fault?  
+A: It occurs when a program tries to access restricted or invalid memory.

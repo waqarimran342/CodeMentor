@@ -1,0 +1,60 @@
+/* ----------------------------------------- */
+/*             VARIABLES - ANSWERS           */
+/* ----------------------------------------- */
+
+/* ************ EASY QUESTION 1 ************ */
+
+int x = 10;
+cout << x;
+
+/* ************ EASY QUESTION 2 ************ */
+
+int a = 5, b = 3;
+int sum = a + b;
+cout << sum;
+
+/* ************ EASY QUESTION 3 ************ */
+
+float pi = 3.14;
+int r = 2;
+float area = pi * r * r;
+cout << area;
+
+/* *********** MEDIUM QUESTION 1 *********** */
+
+int a = 5, b = 10;
+int temp = a;
+a = b;
+b = temp;
+cout << a << " " << b;
+
+/* *********** MEDIUM QUESTION 2 *********** */
+
+int age = 18;
+if (age >= 18) cout << "Adult";
+else cout << "Minor";
+
+/* *********** MEDIUM QUESTION 3 *********** */
+
+string name = "Ali";
+int age = 20;
+cout << "Name: " << name << ", Age: " << age;
+
+/* ********** DIFFICULT QUESTION 1 ********** */
+
+int math = 70, eng = 65, sci = 80;
+float avg = (math + eng + sci) / 3.0;
+cout << avg;
+
+/* ********** DIFFICULT QUESTION 2 ********** */
+
+int a, b;
+cin >> a >> b;
+int max = (a > b) ? a : b;
+cout << "Max: " << max;
+
+/* ********** DIFFICULT QUESTION 3 ********** */
+
+int x = 2, y = 3, z = 4;
+int result = (x + y) * z;
+cout << result;

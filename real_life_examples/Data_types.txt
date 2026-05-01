@@ -1,0 +1,54 @@
+/****************************************************/
+/*                    DATA_TYPES                    */
+/****************************************************/
+
+/************************************************************
+*  EXPLANATION:                                            *
+*  Data types specify what kind of data a variable can   *
+*  hold. For example, float is used for decimal numbers  *
+*  (like BMI), while int is for whole numbers (like age).*
+*  Choosing the right data type ensures accurate          *
+*  calculations and efficient memory use.                 *
+************************************************************/
+
+
+/***************** EXAMPLE 1: BMI CALCULATION *****************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    float weight, height, bmi;
+
+    cout << "Enter weight (kg): ";
+    cin >> weight;
+
+    cout << "Enter height (m): ";
+    cin >> height;
+
+    bmi = weight / (height * height);
+    cout << "Your BMI is: " << bmi << endl;
+
+    return 0;
+}
+
+
+/************ EXAMPLE 2: STUDENT INFO WITH MULTIPLE DATA TYPES ************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    string name;
+    int age;
+    char grade;
+
+    cout << "Enter name, age and grade (A-F): ";
+    cin >> name >> age >> grade;
+
+    cout << "Student " << name << " is " << age << " years old and has grade " << grade << ".";
+
+    return 0;
+}
+
+_________________________________________________________________________________________________

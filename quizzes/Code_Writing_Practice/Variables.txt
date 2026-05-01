@@ -1,0 +1,30 @@
+/* ----------------------------------------- */
+/*                VARIABLES                  */
+/* ----------------------------------------- */
+
+/* ************ EASY QUESTION 1 ************ */
+// Declare an integer variable and print it.
+
+/* ************ EASY QUESTION 2 ************ */
+// Declare two integer variables, assign values, and print their sum.
+
+/* ************ EASY QUESTION 3 ************ */
+// Declare float and int variables. Calculate and print area of circle (π = 3.14).
+
+/* *********** MEDIUM QUESTION 1 *********** */
+// Swap the values of two integer variables using a third variable.
+
+/* *********** MEDIUM QUESTION 2 *********** */
+// Declare a variable for age. If age >= 18, print "Adult", otherwise "Minor".
+
+/* *********** MEDIUM QUESTION 3 *********** */
+// Create and print variables for a person's name (string) and age (int).
+
+/* ********** DIFFICULT QUESTION 1 ********** */
+// Declare marks of 3 subjects, calculate and print the average.
+
+/* ********** DIFFICULT QUESTION 2 ********** */
+// Take two numbers as input and print the greater one using ternary operator.
+
+/* ********** DIFFICULT QUESTION 3 ********** */
+// Perform a combined operation: (x + y) * z using variables and print result.

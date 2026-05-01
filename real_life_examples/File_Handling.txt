@@ -1,0 +1,58 @@
+/****************************************************/
+/*                  FILE_HANDLING                   */
+/****************************************************/
+
+/************************************************************
+*  EXPLANATION:                                            *
+*  File handling is used when you want to save data      *
+*  permanently outside the program, or read stored data   *
+*  later. For example, saving a list of names or reading  *
+*  numbers from a file for calculations.                   *
+************************************************************/
+
+
+/***************** EXAMPLE 1: WRITE NAMES TO FILE *****************/
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    ofstream file("names.txt"); // Open file to write
+
+    if (file.is_open()) {
+        file << "Alice\nBob\nCharlie\n"; // Write names to file
+        file.close();
+        cout << "Names saved to file.";
+    } else {
+        cout << "Unable to open file.";
+    }
+
+    return 0;
+}
+
+
+/************ EXAMPLE 2: READ NUMBERS AND SUM FROM FILE ************/
+
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main() {
+    ifstream file("numbers.txt"); // Open file to read
+    int number, sum = 0;
+
+    if (file.is_open()) {
+        while (file >> number) { // Read numbers until end
+            sum += number;       // Add to sum
+        }
+        file.close();
+        cout << "Sum of numbers: " << sum;
+    } else {
+        cout << "File not found.";
+    }
+
+    return 0;
+}
+
+__________________________________________________________________________

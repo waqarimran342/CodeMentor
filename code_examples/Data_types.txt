@@ -1,0 +1,39 @@
+/* ----------------------------------------- */
+/*               DATA_TYPES                  */
+/* ----------------------------------------- */
+
+/* ************ BASIC EXAMPLE 1 ************ */
+
+int x = 5;
+float y = 4.5;
+cout << x + y;
+
+/* ************ BASIC EXAMPLE 2 ************ */
+
+char ch = 'A';
+bool flag = true;
+cout << ch << " " << flag;
+
+/* ************ NORMAL EXAMPLE 1 ************ */
+
+int a = 10;
+double b = 3.1415;
+cout << fixed << setprecision(2) << a * b;
+
+/* ************ NORMAL EXAMPLE 2 ************ */
+
+long long big = 1234567890123;
+short small = 32767;
+cout << big << " " << small;
+
+/* ************ HARD EXAMPLE 1 ************ */
+
+float f = 5.67;
+int i = static_cast<int>(f); // type casting
+cout << "Int: " << i;
+
+/* ************ HARD EXAMPLE 2 ************ */
+
+int i = 300;
+char c = i; // implicit narrowing conversion
+cout << "Char: " << c;

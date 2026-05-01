@@ -1,0 +1,48 @@
+/****************************************************/
+/*                     STRUCTS                      */
+/****************************************************/
+
+/************************************************************
+*  EXPLANATION:                                            *
+*  Structs group different but related variables into     *
+*  one unit, like employee info (name, id, salary). This  *
+*  simplifies management of complex data.                 *
+************************************************************/
+
+
+/*************** EXAMPLE 1: STORE AND DISPLAY EMPLOYEE DETAILS ***************/
+
+#include <iostream>
+using namespace std;
+
+struct Employee {
+    string name;
+    int id;
+    float salary;
+};
+
+int main() {
+    Employee e1 = {"Alice", 1001, 50000};
+    cout << e1.name << ", ID: " << e1.id << ", Salary: $" << e1.salary;
+    return 0;
+}
+
+
+/*************** EXAMPLE 2: STORE AND DISPLAY STUDENT DETAILS ***************/
+
+#include <iostream>
+using namespace std;
+
+struct Student {
+    string name;
+    int rollNo;
+    char grade;
+};
+
+int main() {
+    Student s1 = {"Bob", 23, 'A'};
+    cout << "Name: " << s1.name << ", Roll No: " << s1.rollNo << ", Grade: " << s1.grade;
+    return 0;
+}
+
+_____________________________________________________________________________________________

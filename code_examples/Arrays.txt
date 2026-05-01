@@ -1,0 +1,49 @@
+/* ----------------------------------------- */
+/*                ARRAYS                     */
+/* ----------------------------------------- */
+
+/* ************ BASIC EXAMPLE 1 ************ */
+
+int arr[3] = {10, 20, 30};
+for(int i = 0; i < 3; i++) {
+    cout << arr[i] << " ";
+}
+
+/* ************ BASIC EXAMPLE 2 ************ */
+
+int arr[5] = {};              // Initialize all to 0
+arr[0] = 1; arr[1] = 2;
+cout << arr[0] + arr[1];
+
+/* ************ NORMAL EXAMPLE 1 ************ */
+
+int arr[] = {5, 10, 15, 20};
+int sum = 0;
+for(int i = 0; i < 4; i++) 
+    sum += arr[i];
+cout << "Sum: " << sum;
+
+/* ************ NORMAL EXAMPLE 2 ************ */
+
+int arr[] = {8, 2, 5, 1};
+int max = arr[0];
+for(int i = 1; i < 4; i++) 
+    if(arr[i] > max) 
+        max = arr[i];
+cout << "Max: " << max;
+
+/* ************ HARD EXAMPLE 1 ************ */
+
+int arr[] = {1, 2, 3, 4, 5}, n = 5;
+for(int i = 0; i < n/2; i++) 
+    swap(arr[i], arr[n - i - 1]);
+
+/* ************ HARD EXAMPLE 2 ************ */
+
+int arr[] = {1, 1, 2, 3, 3, 4}, n = 6;
+int j = 0;
+for(int i = 1; i < n; i++)
+    if(arr[i] != arr[j])
+        arr[++j] = arr[i];
+for(int i = 0; i <= j; i++) 
+    cout << arr[i] << " ";

@@ -1,0 +1,66 @@
+/****************************************************/
+/*                    CASE_SWITCH                   */
+/****************************************************/
+
+/************************************************************
+*  EXPLANATION:                                            *
+*  Switch statements allow you to handle multiple        *
+*  discrete choices efficiently. Instead of many if-else *
+*  checks, switch keeps code clean and readable when      *
+*  dealing with options like menu selection or operator   *
+*  choice.                                                *
+************************************************************/
+
+
+/***************** EXAMPLE 1: SIMPLE CALCULATOR *****************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    char op;
+    double num1, num2;
+
+    cout << "Enter operator (+, -, *, /): ";
+    cin >> op;
+
+    cout << "Enter two numbers: ";
+    cin >> num1 >> num2;
+
+    switch(op) {
+        case '+': cout << num1 + num2; break;
+        case '-': cout << num1 - num2; break;
+        case '*': cout << num1 * num2; break;
+        case '/':
+            if (num2 != 0) 
+                cout << num1 / num2;
+            else 
+                cout << "Cannot divide by zero";
+            break;
+        default:
+            cout << "Invalid operator";
+    }
+    return 0;
+}
+
+
+/************ EXAMPLE 2: MENU SELECTION IN GAME/APP ************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int choice;
+
+    cout << "Menu:\n1. Play\n2. Settings\n3. Exit\nChoose option: ";
+    cin >> choice;
+
+    switch(choice) {
+        case 1: cout << "Game started!"; break;
+        case 2: cout << "Settings opened!"; break;
+        case 3: cout << "Exiting..."; break;
+        default: cout << "Invalid choice";
+    }
+    return 0;
+}
+_____________________________________________________________________

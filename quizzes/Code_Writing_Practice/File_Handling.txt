@@ -1,0 +1,39 @@
+/* ----------------------------------------- */
+/*            FILE_HANDLING - QUESTIONS      */
+/* ----------------------------------------- */
+
+/* ************ EASY QUESTION 1 ************ */
+
+Write a program to create a file named `example.txt` and write `"Hello, File!"` into it.
+
+/* ************ EASY QUESTION 2 ************ */
+
+Create a file `data.txt` and write the text `"C++ File Handling"` into it. Then close the file.
+
+/* ************ EASY QUESTION 3 ************ */
+
+Write a C++ program that writes the number `25` into a file named `num.txt`.
+
+/* *********** MEDIUM QUESTION 1 *********** */
+
+Open an existing file `example.txt`, read the first line from it, and display it on the screen.
+
+/* *********** MEDIUM QUESTION 2 *********** */
+
+Write a program to create a file `multi.txt` and write 5 lines into it: `Line 1`, `Line 2`, ..., `Line 5`.
+
+/* *********** MEDIUM QUESTION 3 *********** */
+
+Open the file `multi.txt` and display all the lines in it using a loop.
+
+/* ********** DIFFICULT QUESTION 1 ********** */
+
+Take name and age from the user and save them in `user.txt` in the format: `Name Age`.
+
+/* ********** DIFFICULT QUESTION 2 ********** */
+
+Write numbers from 1 to 10 into a file `numbers.txt`. Then open the file, read the numbers, and print their sum.
+
+/* ********** DIFFICULT QUESTION 3 ********** */
+
+Read name and age from the file `user.txt` and print them to the screen in a proper format.

@@ -1,0 +1,23 @@
+/* ----------------------------------------- */
+/*               OPERATORS                   */
+/* ----------------------------------------- */
+
+/* *********** DRY RUN QUESTION 1 ********** */
+int a = 5, b = 6;
+cout << a + b;
+
+/* *********** DRY RUN QUESTION 2 ********** */
+int x = 10, y = 3;
+cout << (x > y);
+
+/* *********** DRY RUN QUESTION 3 ********** */
+int p = 7, q = 8;
+cout << p + q;
+
+/* *********** DRY RUN QUESTION 4 ********** */
+bool flag = (5 > 10);
+cout << boolalpha << flag;
+
+/* *********** DRY RUN QUESTION 5 ********** */
+bool test = (10 < 20);
+cout << boolalpha << test;

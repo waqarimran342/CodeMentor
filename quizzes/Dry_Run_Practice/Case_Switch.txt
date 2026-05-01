@@ -1,0 +1,48 @@
+/* ----------------------------------------- */
+/*              CASE_SWITCH                  */
+/* ----------------------------------------- */
+
+/* *********** DRY RUN PRACTICE 1 *********** */
+
+int x = 2;
+switch(x) {
+    case 1: cout << "One"; break;
+    case 2: cout << "Two"; break;
+    default: cout << "Other";
+}
+
+/* *********** DRY RUN PRACTICE 2 *********** */
+
+int val = 5;
+switch(val % 2) {
+    case 0: cout << "Even"; break;
+    case 1: cout << "Odd"; break;
+}
+
+/* *********** DRY RUN PRACTICE 3 *********** */
+
+char ch = 'b';
+switch(ch) {
+    case 'a':
+    case 'e':
+    case 'i': cout << "Vowel"; break;
+    default: cout << "Consonant";
+}
+
+/* *********** DRY RUN PRACTICE 4 *********** */
+
+int n = 10;
+switch(n > 5) {
+    case 1: cout << "Big"; break;
+    case 0: cout << "Small"; break;
+}
+
+/* *********** DRY RUN PRACTICE 5 *********** */
+
+int y = 7;
+switch(y) {
+    case 3: cout << "Three";
+    case 7: cout << "Seven";
+    case 9: cout << "Nine"; break;
+    default: cout << "None";
+}

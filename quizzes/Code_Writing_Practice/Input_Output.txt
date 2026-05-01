@@ -1,0 +1,48 @@
+/* ----------------------------------------- */
+/*            INPUT_OUTPUT - QUESTIONS       */
+/* ----------------------------------------- */
+
+/* ************ EASY QUESTION 1 ************ */
+
+Take a number as input from the user and display it using `cout`.
+
+  
+/* ************ EASY QUESTION 2 ************ */
+
+Take two integers as input and display their sum.
+
+  
+/* ************ EASY QUESTION 3 ************ */
+
+Input your name and print `"Hello, [Name]!"`.
+
+  
+/* *********** MEDIUM QUESTION 1 *********** */
+
+Input marks of three subjects and print their total.
+
+  
+/* *********** MEDIUM QUESTION 2 *********** */
+
+Ask the user to input a character and print its ASCII value.
+
+  
+/* *********** MEDIUM QUESTION 3 *********** */
+
+Take float input for price and quantity, then print the total amount.
+
+  
+/* ********** DIFFICULT QUESTION 1 ********** */
+
+Ask the user to input name, age, and city, and display the full sentence in this format:
+"Ali is 21 years old and lives in Lahore."
+
+  
+/* ********** DIFFICULT QUESTION 2 ********** */
+
+Input a sentence using `getline()` and display it in uppercase.
+
+  
+/* ********** DIFFICULT QUESTION 3 ********** */
+
+Take student name, ID, and 3 subject marks, and print a formatted report card.

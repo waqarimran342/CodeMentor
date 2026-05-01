@@ -1,0 +1,32 @@
+************************************************************************************
+			    CASE-SWITCH
+************************************************************************************
+
+   The switch-case statement is used to execute one block of code among many options.
+
+SYNTAX:
+		switch(expression) {
+  			case constant1: // code
+    			    break;
+  			case constant2: // code
+    			    break;
+  			default: // optional
+}
+
+EXAMPLE:
+		int x = 2;
+		switch(x) {
+ 				 case 1: cout << "One"; break;
+  				 case 2: cout << "Two"; break;
+                                 default: cout << "Other";
+}
+
+KEY POINTS: 
+	       - Only works with `int`, `char`, or `enum` (not `float` or `string`).
+	       - `break` is used to exit the switch; otherwise, fall-through occurs.
+               - `default` is optional but recommended.
+
+EXCEPTION:
+		Using float/double/string in switch results in compilation error.
+____________________________________________________________________________________
+

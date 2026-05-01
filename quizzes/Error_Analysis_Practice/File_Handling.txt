@@ -1,0 +1,47 @@
+// ========== FILE HANDLING ==========
+
+/// Q1
+#include <fstream>
+int main() {
+    ofstream myfile;
+    myfile.open("data.txt")
+    myfile << "Hello";
+    myfile.close();
+}
+
+/// Q2
+#include <fstream>
+int main() {
+    ifstream file("info.txt");
+    string data;
+    file >> data;
+    cout << data;
+}
+
+/// Q3
+#include <fstream>
+int main() {
+    fstream file;
+    file.write("test.txt");
+}
+
+/// Q4
+#include <fstream>
+int main() {
+    ofstream file("log.txt");
+    if (!file) {
+        cout << "File failed";
+    }
+    file << "Log entry";
+}
+
+/// Q5
+#include <fstream>
+int main() {
+    ifstream inFile;
+    inFile.open("readme.txt");
+    string line;
+    while(getline(line, inFile)) {
+        cout << line;
+    }
+}

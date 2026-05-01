@@ -1,0 +1,29 @@
+/* ----------------------------------------- */
+/*               POINTERS                    */
+/* ----------------------------------------- */
+
+/* *********** DRY RUN QUESTION 1 ********** */
+int a = 10;
+int *p = &a;
+cout << *p;
+
+/* *********** DRY RUN QUESTION 2 ********** */
+int a = 20;
+int *ptr = &a;
+cout << *ptr;
+
+/* *********** DRY RUN QUESTION 3 ********** */
+int val = 5;
+int *ptr = &val;
+cout << *ptr;
+
+/* *********** DRY RUN QUESTION 4 ********** */
+int a = 50;
+int *p = &a;
+cout << "Address of a: " << p << endl;
+cout << "Value of a: " << *p;
+
+/* *********** DRY RUN QUESTION 5 ********** */
+int a = 30;
+int *p = &a;
+cout << *p;

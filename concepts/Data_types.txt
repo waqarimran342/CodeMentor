@@ -1,0 +1,31 @@
+ ************************************************************************************
+			        DATA-TYPES
+ ************************************************************************************
+
+		Data types in C++ define the type and size of data.
+
+PRIMARY TYPES:
+		- int: 4 bytes (usually)
+		- float: 4 bytes
+		- double: 8 bytes
+		- char: 1 byte
+		- bool: 1 byte (true or false)
+		- void: for functions with no return value
+
+DERIVED TYPES:
+		- Arrays, Pointers, Functions, References
+
+USER-DEFINED TYPES:
+		- struct, class, union, enum
+
+MODIFIERS:
+		- signed, unsigned, long, short
+
+EXAMPLE:
+		unsigned int x = 10;
+
+KEY POINTS:
+		- Default integer is signed.
+		- Use sizeof(type) to get memory size.
+____________________________________________________________________________________
+

@@ -1,0 +1,26 @@
+************************************************************************************
+			      ARRAYS
+************************************************************************************
+
+     Arrays in C++ are collections of elements of the same data type stored in contiguous memory.
+
+SYNTAX:
+		data_type array_name[size];
+
+EXAMPLE:
+		int numbers[5] = {1, 2, 3, 4, 5};
+
+ACCESSING ELEMENTS;
+		Use index starting from 0.
+		Example: numbers[2] returns 3.
+
+KEY POINTS:
+		- Size must be a constant expression.
+		- Array indices go from 0 to size-1.
+		- Uninitialized elements in static/global arrays default to 0.
+		- Multidimensional arrays are allowed: int matrix[2][3];
+
+EXCCEPTION:
+		Accessing out-of-bound indices gives undefined behavior.
+____________________________________________________________________________________
+	

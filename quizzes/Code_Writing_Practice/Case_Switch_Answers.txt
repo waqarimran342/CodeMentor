@@ -1,0 +1,200 @@
+/* ----------------------------------------- */
+/*           CASE_SWITCH - ANSWERS           */
+/* ----------------------------------------- */
+
+/* ************ EASY QUESTION 1 ************ */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int day;
+    cout << "Enter day number (1-7): ";
+    cin >> day;
+    switch(day) {
+        case 1: cout << "Monday"; break;
+        case 2: cout << "Tuesday"; break;
+        case 3: cout << "Wednesday"; break;
+        case 4: cout << "Thursday"; break;
+        case 5: cout << "Friday"; break;
+        case 6: cout << "Saturday"; break;
+        case 7: cout << "Sunday"; break;
+        default: cout << "Invalid";
+    }
+    return 0;
+}
+
+/* ************ EASY QUESTION 2 ************ */
+
+#include <iostream>
+using namespace std;
+int main() {
+    char op;
+    float a, b;
+    cout << "Enter operator (+ - * /): ";
+    cin >> op;
+    cout << "Enter two numbers: ";
+    cin >> a >> b;
+    switch(op) {
+        case '+': cout << a + b; break;
+        case '-': cout << a - b; break;
+        case '*': cout << a * b; break;
+        case '/': cout << a / b; break;
+        default: cout << "Invalid";
+    }
+    return 0;
+}
+
+/* ************ EASY QUESTION 3 ************ */
+
+#include <iostream>
+using namespace std;
+int main() {
+    char ch;
+    cout << "Enter a character: ";
+    cin >> ch;
+    switch(ch) {
+        case 'a': case 'e': case 'i':
+        case 'o': case 'u':
+        case 'A': case 'E': case 'I':
+        case 'O': case 'U':
+            cout << "Vowel"; break;
+        default:
+            cout << "Consonant";
+    }
+    return 0;
+}
+
+/* *********** MEDIUM QUESTION 1 *********** */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int m;
+    cout << "Enter month number: ";
+    cin >> m;
+    switch(m) {
+        case 1: cout << "January - 31 days"; break;
+        case 2: cout << "February - 28/29 days"; break;
+        case 3: cout << "March - 31 days"; break;
+        case 4: cout << "April - 30 days"; break;
+        default: cout << "Try more cases...";
+    }
+    return 0;
+}
+
+/* *********** MEDIUM QUESTION 2 *********** */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int marks;
+    cout << "Enter marks (0-100): ";
+    cin >> marks;
+    switch(marks / 10) {
+        case 10:
+        case 9: cout << "Grade A"; break;
+        case 8: cout << "Grade B"; break;
+        case 7: cout << "Grade C"; break;
+        case 6: cout << "Grade D"; break;
+        default: cout << "Fail";
+    }
+    return 0;
+}
+
+/* *********** MEDIUM QUESTION 3 *********** */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int choice;
+    float a, b;
+    cout << "1.Circle 2.Square 3.Rectangle: ";
+    cin >> choice;
+    switch(choice) {
+        case 1: 
+            cout << "Radius: "; cin >> a;
+            cout << "Area = " << 3.14 * a * a; break;
+        case 2:
+            cout << "Side: "; cin >> a;
+            cout << "Area = " << a * a; break;
+        case 3:
+            cout << "Length & Width: "; cin >> a >> b;
+            cout << "Area = " << a * b; break;
+        default: cout << "Invalid";
+    }
+    return 0;
+}
+
+/* ********** DIFFICULT QUESTION 1 ********** */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int opt;
+    float value;
+    cout << "1.CM to M  2.KG to G  3.KM to M: ";
+    cin >> opt;
+    cout << "Enter value: ";
+    cin >> value;
+    switch(opt) {
+        case 1: cout << value / 100 << " meters"; break;
+        case 2: cout << value * 1000 << " grams"; break;
+        case 3: cout << value * 1000 << " meters"; break;
+        default: cout << "Invalid";
+    }
+    return 0;
+}
+
+/* ********** DIFFICULT QUESTION 2 ********** */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int ch;
+    cout << "1.Login\n2.Signup\n3.Exit\nEnter choice: ";
+    cin >> ch;
+    switch(ch) {
+        case 1: cout << "Logging in..."; break;
+        case 2: cout << "Signing up..."; break;
+        case 3: cout << "Goodbye!"; break;
+        default: cout << "Invalid";
+    }
+    return 0;
+}
+
+/* ********** DIFFICULT QUESTION 3 ********** */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int mainChoice;
+    cout << "1.Calculator 2.Converter 3.Greeting: ";
+    cin >> mainChoice;
+    switch(mainChoice) {
+        case 1: {
+            char op;
+            float a, b;
+            cout << "Enter operator and numbers: ";
+            cin >> op >> a >> b;
+            switch(op) {
+                case '+': cout << a + b; break;
+                case '-': cout << a - b; break;
+                default: cout << "Op Invalid";
+            }
+            break;
+        }
+        case 2: {
+            int type;
+            float val;
+            cout << "1.KM to M: "; cin >> type >> val;
+            switch(type) {
+                case 1: cout << val * 1000; break;
+                default: cout << "Conv Invalid";
+            }
+            break;
+        }
+        case 3: cout << "Hello, user!"; break;
+        default: cout << "Invalid";
+    }
+    return 0;
+}

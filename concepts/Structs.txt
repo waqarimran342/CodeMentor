@@ -1,0 +1,24 @@
+ ************************************************************************************
+			    STRUCTS
+ ************************************************************************************
+
+		Structs are user-defined data types used to group variables.
+
+SYNTAX:
+		struct Person {
+		  string name;
+		  int age;
+		};
+
+		Person p1 = {"Alice", 25};
+
+ACCESS:
+		p1.name = "Bob";
+
+KEY POINTS:
+		- Struct members are public by default.
+		- Can have functions inside (C++11+).
+
+EXCEPTION:
+		Nested structs need defined types before use.
+____________________________________________________________________________________

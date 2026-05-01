@@ -1,0 +1,30 @@
+/* ----------------------------------------- */
+/*                 STRINGS                   */
+/* ----------------------------------------- */
+
+/* ************ EASY QUESTION 1 ************ */
+// Take a name input from the user and display: Welcome <name>
+
+/* ************ EASY QUESTION 2 ************ */
+// Create two strings "Hello" and "World" and print them with a space.
+
+/* ************ EASY QUESTION 3 ************ */
+// Input a string and print its length.
+
+/* *********** MEDIUM QUESTION 1 *********** */
+// Input a word and print each character on a new line using a loop.
+
+/* *********** MEDIUM QUESTION 2 *********** */
+// Input a string and print its reverse.
+
+/* *********** MEDIUM QUESTION 3 *********** */
+// Concatenate "Good" and "Morning" using variables and print the result.
+
+/* ********** DIFFICULT QUESTION 1 ********** */
+// Input a line of text and convert all characters to uppercase.
+
+/* ********** DIFFICULT QUESTION 2 ********** */
+// Count and print the number of vowels in a string input by the user.
+
+/* ********** DIFFICULT QUESTION 3 ********** */
+// Check if a given word is a palindrome (same forward and backward).

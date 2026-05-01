@@ -1,0 +1,30 @@
+/* ----------------------------------------- */
+/*                 STRUCTS                   */
+/* ----------------------------------------- */
+
+/* ************ EASY QUESTION 1 ************ */
+// Create a struct for Student with name and age. Assign values and display them.
+
+/* ************ EASY QUESTION 2 ************ */
+// Define a Car struct with model and year. Assign and print model.
+
+/* ************ EASY QUESTION 3 ************ */
+// Define a Book struct with title and pages. Assign values and print page count.
+
+/* *********** MEDIUM QUESTION 1 *********** */
+// Define a Product struct with name and price. Take input and display both.
+
+/* *********** MEDIUM QUESTION 2 *********** */
+// Create a Point struct with x and y. Assign values and print coordinates.
+
+/* *********** MEDIUM QUESTION 3 *********** */
+// Take user input for an Employee (name, id, salary) and print the details.
+
+/* ********** DIFFICULT QUESTION 1 ********** */
+// Create a Student struct with marks in 3 subjects. Calculate and display total marks.
+
+/* ********** DIFFICULT QUESTION 2 ********** */
+// Define a Rectangle struct with length and width. Display the area.
+
+/* ********** DIFFICULT QUESTION 3 ********** */
+// Create an array of 2 Movie structs with title and year, and print both movies.

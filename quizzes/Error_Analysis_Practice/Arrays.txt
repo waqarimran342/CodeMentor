@@ -1,0 +1,60 @@
+// ==============================
+//     C++ ERROR ANALYSIS TASKS
+//     >> Topic: ARRAYS
+// ==============================
+// Task: Find and fix the errors in each code snippet.
+
+// ---------- Q1 ----------
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[5];
+    for(int i = 0; i <= 5; i++) {
+        arr[i] = i * 2;
+    }
+    return 0;
+}
+
+// ---------- Q2 ----------
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[] = {1, 2, 3, 4, 5};
+    cout << arr[5];
+    return 0;
+}
+
+// ---------- Q3 ----------
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[3];
+    arr = {10, 20, 30};
+    return 0;
+}
+
+// ---------- Q4 ----------
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[4] = {1, 2, 3, 4, 5};
+    cout << arr[0] << endl;
+    return 0;
+}
+
+// ---------- Q5 ----------
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[3];
+    for(int i = 0; i < 3; i++)
+        cin >> arr[i];
+    for(int i = 0; i <= 3; i++)
+        cout << arr[i] << " ";
+    return 0;
+}

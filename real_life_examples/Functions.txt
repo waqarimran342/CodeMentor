@@ -1,0 +1,54 @@
+/****************************************************/
+/*                    FUNCTIONS                    */
+/****************************************************/
+
+/************************************************************
+*  EXPLANATION:                                            *
+*  Functions help break your program into small, reusable *
+*  blocks that perform specific tasks. This makes code     *
+*  easier to read, maintain, and reuse — for example,      *
+*  calculating factorial or checking if a number is even.  *
+************************************************************/
+
+
+/***************** EXAMPLE 1: RECURSIVE FACTORIAL *****************/
+
+#include <iostream>
+using namespace std;
+
+int factorial(int n) {
+    if (n <= 1) return 1;                  // Base case
+    else return n * factorial(n - 1);     // Recursive call
+}
+
+int main() {
+    int num;
+    cout << "Enter a number: ";
+    cin >> num;
+
+    cout << "Factorial: " << factorial(num);
+    return 0;
+}
+
+
+/************ EXAMPLE 2: CHECK IF NUMBER IS EVEN ************/
+
+#include <iostream>
+using namespace std;
+
+bool isEven(int n) {
+    return n % 2 == 0;
+}
+
+int main() {
+    int number;
+    cout << "Enter number: ";
+    cin >> number;
+
+    if (isEven(number)) cout << "Even";
+    else cout << "Odd";
+
+    return 0;
+}
+
+____________________________________________________________________

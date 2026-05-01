@@ -1,0 +1,44 @@
+/* ----------------------------------------- */
+/*                  STRINGS                  */
+/* ----------------------------------------- */
+
+/* ************ BASIC EXAMPLE 1 ************ */
+
+string name = "John";
+cout << name;
+
+/* ************ BASIC EXAMPLE 2 ************ */
+
+string a = "Hello", b = "World";
+cout << a + " " + b;
+
+/* ************ NORMAL EXAMPLE 1 ************ */
+
+string text = "Programming";
+cout << text.length();
+
+/* ************ NORMAL EXAMPLE 2 ************ */
+
+string s = "Hello";
+s[0] = 'Y';
+cout << s;
+
+/* ************ HARD EXAMPLE 1 ************ */
+
+string str = "racecar";
+bool isPalindrome = true;
+for (int i = 0; i < str.length() / 2; i++) {
+    if (str[i] != str[str.length() - i - 1]) {
+        isPalindrome = false;
+        break;
+    }
+}
+cout << (isPalindrome ? "Palindrome" : "Not");
+
+/* ************ HARD EXAMPLE 2 ************ */
+
+string s = "C++ is powerful!";
+int count = 0;
+for (char c : s)
+    if (c == ' ') count++;
+cout << "Spaces: " << count;

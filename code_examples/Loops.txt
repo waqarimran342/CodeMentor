@@ -1,0 +1,171 @@
+/* ----------------------------------------- */
+/*               FOR LOOPS                   */
+/* ----------------------------------------- */
+
+/* ************ BASIC EXAMPLE 1 ************ */
+
+for (int i = 1; i <= 5; i++) {
+    cout << i << " ";
+}
+
+/* ************ BASIC EXAMPLE 2 ************ */
+
+for (int i = 0; i < 3; i++) {
+    cout << "Hello\n";
+}
+
+/* ************ NORMAL EXAMPLE 1 ************ */
+
+int sum = 0;
+for (int i = 1; i <= 10; i++) {
+    sum += i;
+}
+cout << "Sum: " << sum;
+
+/* ************ NORMAL EXAMPLE 2 ************ */
+
+for (int i = 10; i >= 1; i--) {
+    cout << i << " ";
+}
+
+/* ************ HARD EXAMPLE 1 ************ */
+
+for (int i = 1; i <= 5; i++) {
+    for (int j = 1; j <= i; j++) {
+        cout << "*";
+    }
+    cout << endl;
+}
+
+/* ************ HARD EXAMPLE 2 ************ */
+
+for (int i = 2; i <= 50; i++) {
+    bool isPrime = true;
+    for (int j = 2; j * j <= i; j++) {
+        if (i % j == 0) {
+            isPrime = false;
+            break;
+        }
+    }
+    if (isPrime) cout << i << " ";
+}
+
+
+/* ----------------------------------------- */
+/*              WHILE LOOPS                  */
+/* ----------------------------------------- */
+
+/* ************ BASIC EXAMPLE 1 ************ */
+
+int i = 1;
+while (i <= 5) {
+    cout << i << " ";
+    i++;
+}
+
+/* ************ BASIC EXAMPLE 2 ************ */
+
+int count = 3;
+while (count > 0) {
+    cout << "Countdown: " << count << endl;
+    count--;
+}
+
+/* ************ NORMAL EXAMPLE 1 ************ */
+
+int num = 5, fact = 1;
+while (num > 0) {
+    fact *= num;
+    num--;
+}
+cout << "Factorial: " << fact;
+
+/* ************ NORMAL EXAMPLE 2 ************ */
+
+int x = 1;
+while (x < 100) {
+    cout << x << " ";
+    x *= 2;
+}
+
+/* ************ HARD EXAMPLE 1 ************ */
+
+int number = 1234, sum = 0;
+while (number != 0) {
+    sum += number % 10;
+    number /= 10;
+}
+cout << "Sum of digits: " << sum;
+
+/* ************ HARD EXAMPLE 2 ************ */
+
+int guess, secret = 7;
+while (true) {
+    cout << "Guess number: ";
+    cin >> guess;
+    if (guess == secret) break;
+    else cout << "Try again\n";
+}
+cout << "Correct!";
+
+
+/* ----------------------------------------- */
+/*              DO WHILE LOOPS               */
+/* ----------------------------------------- */
+
+/* ************ BASIC EXAMPLE 1 ************ */
+
+int i = 1;
+do {
+    cout << i << " ";
+    i++;
+} while (i <= 5);
+
+/* ************ BASIC EXAMPLE 2 ************ */
+
+int x = 3;
+do {
+    cout << "Repeat\n";
+    x--;
+} while (x > 0);
+
+/* ************ NORMAL EXAMPLE 1 ************ */
+
+int num = 1;
+do {
+    cout << num * num << " ";
+    num++;
+} while (num <= 5);
+
+/* ************ NORMAL EXAMPLE 2 ************ */
+
+char ch;
+do {
+    cout << "Enter a vowel: ";
+    cin >> ch;
+} while (!(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'));
+
+/* ************ HARD EXAMPLE 1 ************ */
+
+int n, rev = 0;
+do {
+    cout << "Enter number: ";
+    cin >> n;
+} while (n <= 0);
+while (n != 0) {
+    rev = rev * 10 + n % 10;
+    n /= 10;
+}
+cout << "Reversed: " << rev;
+
+/* ************ HARD EXAMPLE 2 ************ */
+
+int attempts = 0;
+int pass;
+do {
+    cout << "Enter password (1234): ";
+    cin >> pass;
+    attempts++;
+} while (pass != 1234 && attempts < 3);
+if (pass == 1234) cout << "Access Granted";
+else cout << "Access Denied";

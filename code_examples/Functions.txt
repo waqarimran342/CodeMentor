@@ -1,0 +1,50 @@
+/* ----------------------------------------- */
+/*                FUNCTIONS                  */
+/* ----------------------------------------- */
+
+/* ************ BASIC EXAMPLE 1 ************ */
+
+void greet() {
+    cout << "Hello!";
+}
+greet();
+
+/* ************ BASIC EXAMPLE 2 ************ */
+
+int add(int a, int b) {
+    return a + b;
+}
+cout << add(3, 4);
+
+/* ************ NORMAL EXAMPLE 1 ************ */
+
+void square(int x) {
+    cout << x * x;
+}
+square(6);
+
+/* ************ NORMAL EXAMPLE 2 ************ */
+
+int max(int a, int b) {
+    return (a > b) ? a : b;
+}
+cout << max(7, 9);
+
+/* ************ HARD EXAMPLE 1 ************ */
+
+int factorial(int n) {
+    if(n <= 1) return 1;
+    return n * factorial(n - 1);
+}
+cout << factorial(5);
+
+/* ************ HARD EXAMPLE 2 ************ */
+
+void swap(int &a, int &b) {
+    int temp = a;
+    a = b;
+    b = temp;
+}
+int x = 3, y = 5;
+swap(x, y);
+cout << x << " " << y;

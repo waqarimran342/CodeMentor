@@ -1,0 +1,38 @@
+/* ----------------------------------------- */
+/*               FUNCTIONS                   */
+/* ----------------------------------------- */
+
+/* *********** DRY RUN PRACTICE 1 *********** */
+
+int add(int a, int b) {
+    return a + b;
+}
+cout << add(2, 3);
+
+/* *********** DRY RUN PRACTICE 2 *********** */
+
+void greet() {
+    cout << "Hi!";
+}
+greet();
+
+/* *********** DRY RUN PRACTICE 3 *********** */
+
+int square(int x) {
+    return x * x;
+}
+cout << square(4);
+
+/* *********** DRY RUN PRACTICE 4 *********** */
+
+int fun(int a) {
+    return a % 2 == 0 ? 1 : 0;
+}
+cout << fun(5);
+
+/* *********** DRY RUN PRACTICE 5 *********** */
+
+int calc(int x, int y) {
+    return x * y - y;
+}
+cout << calc(3, 4);

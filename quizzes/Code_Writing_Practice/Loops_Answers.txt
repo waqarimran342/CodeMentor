@@ -1,0 +1,272 @@
+/* ----------------------------------------- */
+/*                  LOOPS                    */
+/* ----------------------------------------- */
+
+/* ************ FOR LOOP ANSWERS ************ */
+
+/* ************ EASY QUESTION 1 ************ */
+
+for(int i = 1; i <= 10; i++) {
+    cout << i << " ";
+}
+
+/* ************ EASY QUESTION 2 ************ */
+
+for(int i = 2; i <= 20; i += 2) {
+    cout << i << " ";
+}
+
+/* ************ EASY QUESTION 3 ************ */
+
+int n = 5;
+for(int i = 1; i <= 10; i++) {
+    cout << n << " x " << i << " = " << n * i << endl;
+}
+
+/* *********** MEDIUM QUESTION 1 *********** */
+
+int sum = 0;
+for(int i = 1; i <= 100; i++) {
+    sum += i;
+}
+cout << "Sum = " << sum;
+
+/* *********** MEDIUM QUESTION 2 *********** */
+
+int num, fact = 1;
+cin >> num;
+for(int i = 1; i <= num; i++) {
+    fact *= i;
+}
+cout << "Factorial = " << fact;
+
+/* *********** MEDIUM QUESTION 3 *********** */
+
+for(int i = 1; i <= 10; i++) {
+    cout << i * i << " ";
+}
+
+/* ********** DIFFICULT QUESTION 1 ********** */
+
+int a = 0, b = 1, next;
+cout << a << " " << b << " ";
+for(int i = 2; i < 10; i++) {
+    next = a + b;
+    cout << next << " ";
+    a = b;
+    b = next;
+}
+
+/* ********** DIFFICULT QUESTION 2 ********** */
+
+for(int i = 2; i <= 50; i++) {
+    bool isPrime = true;
+    for(int j = 2; j <= i/2; j++) {
+        if(i % j == 0) {
+            isPrime = false;
+            break;
+        }
+    }
+    if(isPrime) cout << i << " ";
+}
+
+/* ********** DIFFICULT QUESTION 3 ********** */
+
+for(int i = 1; i <= 5; i++) {
+    for(int j = 1; j <= i; j++) {
+        cout << "* ";
+    }
+    cout << endl;
+}
+
+
+
+/* *********** WHILE LOOP ANSWERS *********** */
+
+/* ************ EASY QUESTION 1 ************ */
+
+int i = 1;
+while(i <= 10) {
+    cout << i << " ";
+    i++;
+}
+
+/* ************ EASY QUESTION 2 ************ */
+
+int i = 3;
+while(i <= 30) {
+    cout << i << " ";
+    i += 3;
+}
+
+/* ************ EASY QUESTION 3 ************ */
+
+int i = 10;
+while(i >= 1) {
+    cout << i << " ";
+    i--;
+}
+
+/* *********** MEDIUM QUESTION 1 *********** */
+
+int num, count = 0;
+cin >> num;
+while(num != 0) {
+    num /= 10;
+    count++;
+}
+cout << "Digits = " << count;
+
+/* *********** MEDIUM QUESTION 2 *********** */
+
+int num, sum = 0;
+cin >> num;
+while(num > 0) {
+    sum += num % 10;
+    num /= 10;
+}
+cout << "Sum = " << sum;
+
+/* *********** MEDIUM QUESTION 3 *********** */
+
+int n, total = 0;
+cin >> n;
+while(n != 0) {
+    total += n;
+    cin >> n;
+}
+cout << "Total sum = " << total;
+
+/* ********** DIFFICULT QUESTION 1 ********** */
+
+int num, rev = 0;
+cin >> num;
+while(num > 0) {
+    rev = rev * 10 + num % 10;
+    num /= 10;
+}
+cout << "Reversed = " << rev;
+
+/* ********** DIFFICULT QUESTION 2 ********** */
+
+int val, count = 0;
+cin >> val;
+while(val != -1) {
+    if(val > 0) count++;
+    cin >> val;
+}
+cout << "Positive numbers = " << count;
+
+/* ********** DIFFICULT QUESTION 3 ********** */
+
+int num, temp, rev = 0;
+cin >> num;
+temp = num;
+while(temp > 0) {
+    rev = rev * 10 + temp % 10;
+    temp /= 10;
+}
+if(rev == num)
+    cout << "Palindrome";
+else
+    cout << "Not Palindrome";
+
+
+
+/* ********* DO-WHILE LOOP ANSWERS ********* */
+
+/* ************ EASY QUESTION 1 ************ */
+
+int i = 1;
+do {
+    cout << i << " ";
+    i++;
+} while(i <= 5);
+
+/* ************ EASY QUESTION 2 ************ */
+
+int num;
+do {
+    cin >> num;
+    cout << "You entered: " << num << endl;
+} while(num != 0);
+
+/* ************ EASY QUESTION 3 ************ */
+
+int i = 1;
+do {
+    cout << i * i << " ";
+    i++;
+} while(i <= 5);
+
+/* *********** MEDIUM QUESTION 1 *********** */
+
+char ch;
+int count = 0;
+do {
+    cin >> ch;
+    count++;
+} while(ch != 'n');
+cout << "Count = " << count - 1;
+
+/* *********** MEDIUM QUESTION 2 *********** */
+
+int i = 1, sum = 0, count = 0;
+do {
+    if(i % 2 != 0) {
+        sum += i;
+        count++;
+    }
+    i++;
+} while(count < 10);
+cout << "Sum = " << sum;
+
+/* *********** MEDIUM QUESTION 3 *********** */
+
+int base, exp, result = 1;
+cin >> base >> exp;
+int i = 0;
+do {
+    result *= base;
+    i++;
+} while(i < exp);
+cout << "Result = " << result;
+
+/* ********** DIFFICULT QUESTION 1 ********** */
+
+int choice;
+float a, b;
+do {
+    cout << "1.Add  2.Subtract  3.Exit: ";
+    cin >> choice;
+    if(choice == 1 || choice == 2) {
+        cin >> a >> b;
+        if(choice == 1)
+            cout << "Sum = " << a + b << endl;
+        else
+            cout << "Diff = " << a - b << endl;
+    }
+} while(choice != 3);
+
+/* ********** DIFFICULT QUESTION 2 ********** */
+
+int i = 5;
+do {
+    int j = 1;
+    do {
+        cout << "* ";
+        j++;
+    } while(j <= i);
+    cout << endl;
+    i--;
+} while(i >= 1);
+
+/* ********** DIFFICULT QUESTION 3 ********** */
+
+int age;
+do {
+    cin >> age;
+    if(age > 0 && age < 12) cout << "Child Ticket\n";
+    else if(age >= 12 && age <= 60) cout << "Adult Ticket\n";
+    else if(age > 60) cout << "Senior Ticket\n";
+} while(age != 0);

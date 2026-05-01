@@ -1,0 +1,48 @@
+// ========== IF-ELSE FIXED ==========
+
+/// Q1
+int main() {
+    int age = 17;
+    if (age >= 18)
+        cout << "Adult";
+    else
+        cout << "Minor";
+}
+
+/// Q2
+int main() {
+    int x = 5;
+    if (x == 10)
+        cout << "Equal";
+}
+
+/// Q3
+int main() {
+    int x = 3;
+    if (x > 2)
+        cout << "Yes";
+    else
+        cout << "No";
+}
+
+/// Q4
+int main() {
+    int a = 5, b = 7;
+    if (a > b)
+        cout << "A";
+    else if (b > a)
+        cout << "B";
+    else
+        cout << "Equal";
+}
+
+/// Q5
+int main() {
+    int score = 80;
+    if (score >= 90)
+        cout << "A";
+    else if (score >= 80)
+        cout << "B";
+    else
+        cout << "C";
+}

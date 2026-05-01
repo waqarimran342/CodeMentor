@@ -1,0 +1,68 @@
+/* ----------------------------------------- */
+/*             POINTERS - ANSWERS            */
+/* ----------------------------------------- */
+
+/* ************ EASY QUESTION 1 ************ */
+
+int x = 10;
+int *ptr = &x;
+cout << ptr;
+
+/* ************ EASY QUESTION 2 ************ */
+
+int y = 25;
+int *p = &y;
+cout << "Address: " << p << "\nValue: " << *p;
+
+/* ************ EASY QUESTION 3 ************ */
+
+float f = 3.5;
+float *pf = &f;
+cout << *pf;
+
+/* *********** MEDIUM QUESTION 1 *********** */
+
+int x = 5;
+int *p = &x;
+*p = 10;
+cout << x;
+
+/* *********** MEDIUM QUESTION 2 *********** */
+
+int a = 3, b = 5, temp;
+int *p1 = &a, *p2 = &b;
+temp = *p1;
+*p1 = *p2;
+*p2 = temp;
+
+/* *********** MEDIUM QUESTION 3 *********** */
+
+void doubleValue(int *p) {
+    *p *= 2;
+}
+int num = 6;
+doubleValue(&num);
+cout << num;
+
+/* ********** DIFFICULT QUESTION 1 ********** */
+
+int arr[5] = {1, 2, 3, 4, 5};
+int *p = arr;
+for (int i = 0; i < 5; i++) cout << *(p + i) << " ";
+
+/* ********** DIFFICULT QUESTION 2 ********** */
+
+int *arr = new int[5];
+for (int i = 0; i < 5; i++) arr[i] = i + 1;
+for (int i = 0; i < 5; i++) cout << arr[i] << " ";
+delete[] arr;
+
+/* ********** DIFFICULT QUESTION 3 ********** */
+
+struct Student {
+    string name;
+    int age;
+};
+Student s = {"Ali", 20};
+Student *p = &s;
+cout << p->name << " " << p->age;

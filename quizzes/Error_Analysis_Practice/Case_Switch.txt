@@ -1,0 +1,58 @@
+// ========== CASE SWITCH ==========
+
+/// Q1
+int main() {
+    int x = 2;
+    switch(x) {
+        case 1:
+            cout << "One";
+        case 2:
+            cout << "Two";
+        default:
+            cout << "Other";
+    }
+}
+
+/// Q2
+int main() {
+    char ch = 'A';
+    switch(ch) {
+        case 'A':
+            cout << "A";
+            break;
+        case 'B':
+            cout << "B"
+            break;
+    }
+}
+
+/// Q3
+int main() {
+    int n = 5;
+    switch(n > 4) {
+        case true:
+            cout << "Greater";
+            break;
+    }
+}
+
+/// Q4
+int main() {
+    int val = 10;
+    switch(val) {
+        case 10:
+            cout << "Ten";
+        case 20:
+            cout << "Twenty";
+    }
+}
+
+/// Q5
+int main() {
+    float f = 2.5;
+    switch(f) {
+        case 1.5:
+            cout << "One point five";
+            break;
+    }
+}

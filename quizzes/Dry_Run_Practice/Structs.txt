@@ -1,0 +1,41 @@
+/* ----------------------------------------- */
+/*                STRUCTS                    */
+/* ----------------------------------------- */
+
+/* *********** DRY RUN QUESTION 1 ********** */
+struct Person {
+    string name;
+    int age;
+};
+Person p1 = {"Alice", 20};
+cout << p1.name << " " << p1.age;
+
+/* *********** DRY RUN QUESTION 2 ********** */
+struct Student {
+    int roll;
+};
+Student s = {101};
+cout << s.roll;
+
+/* *********** DRY RUN QUESTION 3 ********** */
+struct Player {
+    string name;
+    int score;
+};
+Player p = {"Bob", 75};
+cout << p.name << " " << p.score;
+
+/* *********** DRY RUN QUESTION 4 ********** */
+struct Item {
+    int quantity;
+    int price;
+};
+Item i = {5, 10000};
+cout << i.quantity << " " << i.price;
+
+/* *********** DRY RUN QUESTION 5 ********** */
+struct Job {
+    string title;
+};
+Job j = {"Engineer"};
+cout << j.title;

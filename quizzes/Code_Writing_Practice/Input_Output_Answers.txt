@@ -1,0 +1,61 @@
+/* ----------------------------------------- */
+/*           INPUT_OUTPUT - ANSWERS          */
+/* ----------------------------------------- */
+
+/* ************ EASY QUESTION 1 ************ */
+
+int num;
+cin >> num;
+cout << num;
+
+/* ************ EASY QUESTION 2 ************ */
+
+int a, b;
+cin >> a >> b;
+cout << "Sum: " << a + b;
+
+/* ************ EASY QUESTION 3 ************ */
+
+string name;
+cin >> name;
+cout << "Hello, " << name << "!";
+
+/* *********** MEDIUM QUESTION 1 *********** */
+
+int m1, m2, m3;
+cin >> m1 >> m2 >> m3;
+cout << "Total: " << m1 + m2 + m3;
+
+/* *********** MEDIUM QUESTION 2 *********** */
+
+char ch;
+cin >> ch;
+cout << "ASCII: " << (int)ch;
+
+/* *********** MEDIUM QUESTION 3 *********** */
+
+float price;
+int qty;
+cin >> price >> qty;
+cout << "Total = " << price * qty;
+
+/* ********** DIFFICULT QUESTION 1 ********** */
+
+string name, city;
+int age;
+cin >> name >> age >> city;
+cout << name << " is " << age << " years old and lives in " << city << ".";
+
+/* ********** DIFFICULT QUESTION 2 ********** */
+
+string line;
+getline(cin, line);
+for (char &c : line) c = toupper(c);
+cout << line;
+
+/* ********** DIFFICULT QUESTION 3 ********** */
+
+string name, id;
+int m1, m2, m3;
+cin >> name >> id >> m1 >> m2 >> m3;
+cout << "Name: " << name << "\nID: " << id << "\nTotal: " << m1 + m2 + m3;

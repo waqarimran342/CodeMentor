@@ -1,0 +1,32 @@
+ ************************************************************************************
+			         FUNCTIONS
+ ************************************************************************************
+
+		Functions are blocks of code designed to perform a specific task.
+
+SYNTAX:
+		return_type function_name(parameters) {
+		  // body
+		}
+
+EXAMPLE:
+		int add(int a, int b) {
+		  return a + b;
+		}
+
+CALLING:
+		int result = add(2, 3);
+
+TYPES:
+		- Built-in and User-defined
+		- With or without return
+		- With or without parameters
+
+KEY POINTS:
+		- Default arguments are allowed.
+		- Function overloading is allowed.
+		- Use prototypes if defined after main().
+
+EXCEPTION:
+		Two functions can't differ only by return type.
+_________________________________________________________________________________________

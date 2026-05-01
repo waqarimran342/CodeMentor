@@ -1,0 +1,40 @@
+/* ----------------------------------------- */
+/*                VARIABLES                  */
+/* ----------------------------------------- */
+
+/* ************ BASIC EXAMPLE 1 ************ */
+
+int x = 10;
+cout << "Value of x is: " << x;
+
+/* ************ BASIC EXAMPLE 2 ************ */
+
+char grade = 'A';
+cout << "Grade: " << grade;
+
+/* ************ NORMAL EXAMPLE 1 ************ */
+
+int a = 5, b = 3;
+int sumVar = a + b;
+cout << "Sum: " << sumVar;
+
+/* ************ NORMAL EXAMPLE 2 ************ */
+
+float tempC = 37.5;
+float tempF = (tempC * 9 / 5) + 32;
+cout << "Temperature in Fahrenheit: " << tempF;
+
+/* ************ HARD EXAMPLE 1 ************ */
+
+const float PI = 3.14159;
+float radius = 5.0;
+float area = PI * radius * radius;
+cout << "Area of circle: " << area;
+
+/* ************ HARD EXAMPLE 2 ************ */
+
+int age;
+string name;
+cout << "Enter your name and age: ";
+cin >> name >> age;
+cout << "Hello " << name << ", you are " << age << " years old.";

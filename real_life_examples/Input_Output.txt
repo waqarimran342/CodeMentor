@@ -1,0 +1,41 @@
+/****************************************************/
+/*                  INPUT_OUTPUT                    */
+/****************************************************/
+
+/************************************************************
+*  EXPLANATION:                                            *
+*  Input/output allows interaction with users — taking   *
+*  their input and showing results. For example,         *
+*  greeting by name or adding two numbers input by the    *
+*  user.                                                  *
+************************************************************/
+
+
+/***************** EXAMPLE 1: GET USER NAME AND GREET *****************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    string name;
+    cout << "Enter your name: ";
+    getline(cin, name);  // getline to read full name with spaces
+    cout << "Hello, " << name << "!";
+    return 0;
+}
+
+
+/************ EXAMPLE 2: BASIC CALCULATOR FOR SUM OF TWO INTEGERS ************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b;
+    cout << "Enter two integers: ";
+    cin >> a >> b;
+    cout << "Sum is: " << a + b << endl;
+    return 0;
+}
+
+______________________________________________________________________________

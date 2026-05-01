@@ -1,0 +1,51 @@
+/* ----------------------------------------- */
+/*              FILE_HANDLING                */
+/* ----------------------------------------- */
+
+/* ************ BASIC EXAMPLE 1 ************ */
+
+ofstream fout("example.txt");
+fout << "Hello File!";
+fout.close();
+
+/* ************ BASIC EXAMPLE 2 ************ */
+
+ifstream fin("example.txt");
+string line;
+getline(fin, line);
+cout << line;
+fin.close();
+
+/* ************ NORMAL EXAMPLE 1 ************ */
+
+ofstream file("data.txt", ios::app);
+file << "\nAppending text.";
+file.close();
+
+/* ************ NORMAL EXAMPLE 2 ************ */
+
+ifstream file("data.txt");
+char ch;
+while (file.get(ch)) cout << ch;
+file.close();
+
+/* ************ HARD EXAMPLE 1 ************ */
+
+fstream file("mixed.txt", ios::in | ios::out);
+file << "Overwrite";
+file.seekg(0);
+string text;
+file >> text;
+cout << text;
+file.close();
+
+/* ************ HARD EXAMPLE 2 ************ */
+
+ifstream in("input.txt");
+ofstream out("output.txt");
+string word;
+while (in >> word) {
+    if (word != "skip") out << word << " ";
+}
+in.close();
+out.close();

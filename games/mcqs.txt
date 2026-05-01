@@ -1,0 +1,294 @@
+Which keyword is used to define a function in C++?
+A. def
+B. func
+C. void
+D. function
+C
+What is the correct syntax to include a header file in C++?
+A. include<iostream>
+B. #include<iostream>
+C. #include[iostream]
+D. import<iostream>
+B
+Which operator is used for input in C++?
+A. >>
+B. <<
+C. //
+D. ::
+A
+Which of the following is not a data type in C++?
+A. int
+B. string
+C. bool
+D. real
+D
+Which of the following is used to declare a constant?
+A. constant
+B. static
+C. #define
+D. final
+C
+Which symbol is used for comments in C++?
+A. //
+B. **
+C. ##
+D. $$
+A
+Which loop is guaranteed to run at least once?
+A. for
+B. while
+C. do-while
+D. switch
+C
+Which keyword is used to define a variable?
+A. var
+B. define
+C. int
+D. declare
+C
+Which operator is used to access array elements?
+A. ()
+B. <>
+C. []
+D. {}
+C
+Which function is the entry point of any C++ program?
+A. begin()
+B. start()
+C. main()
+D. init()
+C
+What is the size of an `int` on most systems?
+A. 2 bytes
+B. 4 bytes
+C. 8 bytes
+D. 1 byte
+B
+Which header file is needed for `cout` and `cin`?
+A. iostream
+B. conio.h
+C. stream.h
+D. stdio.h
+A
+Which keyword is used to return a value from a function?
+A. break
+B. exit
+C. return
+D. stop
+C
+What is the default return type of `main()` in C++?
+A. void
+B. int
+C. char
+D. string
+B
+Which of these terminates a statement in C++?
+A. ,
+B. .
+C. ;
+D. :
+C
+Which header file is required for file handling?
+A. stdio.h
+B. fstream
+C. iomanip
+D. string
+B
+What is the output of `5 % 2`?
+A. 2
+B. 1
+C. 0
+D. 3
+B
+Which data type is used to store true or false?
+A. int
+B. bool
+C. char
+D. float
+B
+Which loop repeats a fixed number of times?
+A. while
+B. do-while
+C. for
+D. repeat
+C
+Which keyword is used for conditional statements?
+A. if
+B. do
+C. run
+D. loop
+A
+Which symbol is used for logical AND?
+A. &&
+B. ||
+C. !
+D. &
+A
+Which of these is used to combine multiple conditions?
+A. ,
+B. &&
+C. ::
+D. ##
+B
+Which operator increases a value by 1?
+A. --
+B. ++
+C. **
+D. //
+B
+Which type of loop checks condition before running?
+A. do-while
+B. switch
+C. for
+D. repeat
+C
+Which function is used to clear the screen in Windows?
+A. clrscr()
+B. clear()
+C. system("cls")
+D. wipe()
+C
+Which keyword is used to define an array?
+A. var
+B. array
+C. int arr[]
+D. list
+C
+Which function reads an entire line of text?
+A. getline()
+B. cin
+C. read()
+D. line()
+A
+Which function writes output to the screen?
+A. input()
+B. write()
+C. cout
+D. printf
+C
+What is the correct syntax for a `for` loop?
+A. for (int i=0; i<5; i++)
+B. loop (i=0; i<5; i++)
+C. repeat (i=0 to 5)
+D. for (i in 0 to 5)
+A
+Which data type stores single characters?
+A. string
+B. word
+C. char
+D. letter
+C
+What is the index of the first element in an array?
+A. 0
+B. 1
+C. -1
+D. random
+A
+Which data type is best for decimal values?
+A. int
+B. bool
+C. float
+D. char
+C
+Which operator checks for equality?
+A. =
+B. ==
+C. !=
+D. equal
+B
+Which keyword is used to define a function?
+A. define
+B. function
+C. void/int/char
+D. method
+C
+Which function is used to open a file?
+A. open()
+B. start()
+C. fstream
+D. begin()
+C
+What is the syntax for pointer declaration?
+A. int *ptr;
+B. int ptr*;
+C. pointer ptr;
+D. ptr int;
+A
+Which function is used to read from a file?
+A. read()
+B. get()
+C. getline()
+D. readfile()
+C
+Which keyword ends a switch case block?
+A. exit
+B. break
+C. stop
+D. return
+B
+Which of these is not a valid loop?
+A. while
+B. do-while
+C. repeat-until
+D. for
+C
+Which operator is used for assignment?
+A. ==
+B. :=
+C. =
+D. =>
+C
+Which value is returned when a program ends successfully?
+A. -1
+B. 0
+C. 1
+D. 100
+B
+Which of these is not a valid C++ file extension?
+A. .cpp
+B. .cc
+C. .cxx
+D. .exe
+D
+Which type of function does not return anything?
+A. void
+B. null
+C. blank
+D. empty
+A
+What is the default value of an uninitialized int?
+A. 0
+B. NULL
+C. Garbage
+D. -1
+C
+Which function converts string to integer?
+A. stoi()
+B. toInt()
+C. stringToInt()
+D. convert()
+A
+Which function is used to close a file?
+A. delete()
+B. remove()
+C. close()
+D. end()
+C
+Which of these is used to pause output until user input?
+A. pause()
+B. getch()
+C. input()
+D. read()
+B
+Which operator is used to subtract values?
+A. +
+B. /
+C. *
+D. -
+D
+Which keyword defines a local variable inside a block?
+A. extern
+B. static
+C. auto
+D. dynamic
+C

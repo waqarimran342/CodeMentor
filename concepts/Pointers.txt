@@ -1,0 +1,24 @@
+ ************************************************************************************
+			         POINTERS
+ ************************************************************************************
+
+		Pointers store memory addresses of variables.
+
+SYNTAX:
+		type* ptr;
+
+EXAMPLE:
+		int x = 10;
+		int* p = &x;
+
+DEREFERENCING:
+		cout << *p; // prints 10
+
+KEY POINTS:
+		- & gives address, * dereferences pointer.
+		- nullptr represents a null pointer.
+		- Use pointers for dynamic memory (new/delete).
+
+EXCEPTION:
+		Uninitialized or dangling pointers can crash the program.
+____________________________________________________________________________________

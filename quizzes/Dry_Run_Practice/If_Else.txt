@@ -1,0 +1,40 @@
+/* ----------------------------------------- */
+/*                IF_ELSE                    */
+/* ----------------------------------------- */
+
+/* *********** DRY RUN PRACTICE 1 *********** */
+
+int x = 5;
+if(x > 3) cout << "Yes";
+else cout << "No";
+
+/* *********** DRY RUN PRACTICE 2 *********** */
+
+int age = 18;
+if(age >= 18)
+    cout << "Adult";
+else
+    cout << "Minor";
+
+/* *********** DRY RUN PRACTICE 3 *********** */
+
+int a = 2, b = 3;
+if(a == b)
+    cout << "Equal";
+else
+    cout << "Not Equal";
+
+/* *********** DRY RUN PRACTICE 4 *********** */
+
+int n = 7;
+if(n % 2 == 0)
+    cout << "Even";
+else
+    cout << "Odd";
+
+/* *********** DRY RUN PRACTICE 5 *********** */
+
+int temp = 40;
+if(temp > 30) cout << "Hot";
+else if(temp > 20) cout << "Warm";
+else cout << "Cold";

@@ -1,0 +1,59 @@
+// ==============================
+//     C++ ERROR FIXED VERSIONS
+//     >> Topic: ARRAYS
+// ==============================
+// Task: Corrected code for each question
+
+// ---------- Q1 (Fixed) ----------
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[5];
+    for(int i = 0; i < 5; i++) { // Fix: changed <= 5 to < 5
+        arr[i] = i * 2;
+    }
+    return 0;
+}
+
+// ---------- Q2 (Fixed) ----------
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[] = {1, 2, 3, 4, 5};
+    cout << arr[4]; // Fix: changed index 5 to 4
+    return 0;
+}
+
+// ---------- Q3 (Fixed) ----------
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[3] = {10, 20, 30}; // Fix: initialize in declaration
+    return 0;
+}
+
+// ---------- Q4 (Fixed) ----------
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[5] = {1, 2, 3, 4, 5}; // Fix: size must match initializer
+    cout << arr[0] << endl;
+    return 0;
+}
+
+// ---------- Q5 (Fixed) ----------
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[3];
+    for(int i = 0; i < 3; i++) // OK
+        cin >> arr[i];
+    for(int i = 0; i < 3; i++) // Fix: changed <= 3 to < 3
+        cout << arr[i] << " ";
+    return 0;
+}

@@ -1,0 +1,40 @@
+/****************************************************/
+/*                    VARIABLES                     */
+/****************************************************/
+
+/************************************************************
+*  EXPLANATION:                                            *
+*  Variables are used to store data in memory. You give   *
+*  them names so you can use and update their values      *
+*  throughout your program.                                *
+************************************************************/
+
+
+/*************** EXAMPLE 1: STORE AND PRINT AGE & HEIGHT ***************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age = 21;
+    float height = 5.9;
+    cout << "Age: " << age << endl;
+    cout << "Height: " << height << " feet" << endl;
+    return 0;
+}
+
+
+/************ EXAMPLE 2: CALCULATE AREA OF RECTANGLE USING VARIABLES ************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int length = 10;
+    int width = 5;
+    int area = length * width;
+    cout << "Area of rectangle: " << area << " sq units" << endl;
+    return 0;
+}
+
+______________________________________________________________________________

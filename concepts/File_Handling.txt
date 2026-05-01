@@ -1,0 +1,35 @@
+ ************************************************************************************
+			       FILE HANDLING
+ ************************************************************************************
+
+		File handling allows reading from and writing to files.
+
+HEADERS:
+		#include <fstream>
+
+OBJECTS:
+		- ifstream: reading
+		- ofstream: writing
+		- fstream: both
+
+EXAMPLE:
+		ofstream file("data.txt");
+		file << "Hello";
+		file.close();
+
+READING:
+		ifstream file("data.txt");
+		string line;
+		while(getline(file, line)) {
+		  cout << line << endl;
+		}
+		file.close();
+
+KEY POINTS:
+		- Always check if file is open using file.is_open().
+		- Use file.eof() for reading till end.
+		- Modes: ios::in, ios::out, ios::app, ios::binary, etc.
+
+EXCEPTION:
+		Always close the file or you may lose data.
+____________________________________________________________________________________

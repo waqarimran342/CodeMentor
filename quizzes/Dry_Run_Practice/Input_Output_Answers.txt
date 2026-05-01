@@ -1,0 +1,18 @@
+/* ----------------------------------------- */
+/*             INPUT_OUTPUT                  */
+/* ----------------------------------------- */
+
+/* *********** DRY RUN OUTPUT 1 ************ */
+// Input: 4 → Output: 8
+
+/* *********** DRY RUN OUTPUT 2 ************ */
+// Input: John → Output: Hello John
+
+/* *********** DRY RUN OUTPUT 3 ************ */
+// Input: 2 5 → Output: 7
+
+/* *********** DRY RUN OUTPUT 4 ************ */
+// Input: 10.5 → Output: 10
+
+/* *********** DRY RUN OUTPUT 5 ************ */
+// Input: 3 4 → Output: 12

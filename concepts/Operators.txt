@@ -1,0 +1,26 @@
+ ************************************************************************************
+			        OPERATORS
+ ************************************************************************************
+
+		Operators are symbols that perform operations on variables.
+
+TYPES:
+		- Arithmetic: + - * / %
+		- Relational: == != > < >= <=
+		- Logical: && || !
+		- Assignment: = += -= *=
+		- Bitwise: & | ^ ~ << >>
+		- Unary: ++ --
+		- Ternary: condition ? true : false
+
+EXAMPLE:
+		int x = 10;
+		x += 5; // x = 15
+
+KEY POINTS:
+		- Operator precedence affects order of operations.
+		- Use parentheses to ensure correct execution order.
+
+EXCEPTION:
+		Integer division truncates decimal. (5/2 = 2)
+____________________________________________________________________________________

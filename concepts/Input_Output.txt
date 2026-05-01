@@ -1,0 +1,31 @@
+ ************************************************************************************
+			INPUT/OUTPUT
+ ************************************************************************************
+
+		Handles user interaction in C++.
+
+HEADER:
+		#include <iostream>
+
+OBJECTS:
+		- cin: standard input
+		- cout: standard output
+		- cerr: error output
+		- clog: log output
+
+EXAMPLE:
+		int age;
+		cout << "Enter age: ";
+		cin >> age;
+
+FORMATTING:
+		- cout << fixed << setprecision(2);
+		- Use "\n" or endl for new line.
+
+KEY POINTS:
+		- Chaining is allowed: cin >> a >> b;
+		- cin stops at whitespace for strings.
+
+EXCEPTION:
+		Use getline() for full line input with spaces.
+_________________________________________________________________________________________

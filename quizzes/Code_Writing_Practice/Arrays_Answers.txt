@@ -1,0 +1,130 @@
+/* ----------------------------------------- */
+/*              ARRAYS - ANSWERS             */
+/* ----------------------------------------- */
+
+/* ************ EASY QUESTION 1 ************ */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int arr[5] = {10, 20, 30, 40, 50};
+    for(int i = 0; i < 5; i++) {
+        cout << arr[i] << " ";
+    }
+    return 0;
+}
+
+/* ************ EASY QUESTION 2 ************ */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int arr[5] = {1, 2, 3, 4, 5}, sum = 0;
+    for(int i = 0; i < 5; i++) sum += arr[i];
+    cout << "Sum = " << sum;
+    return 0;
+}
+
+/* ************ EASY QUESTION 3 ************ */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int arr[5] = {4, 11, 8, 25, 3}, max = arr[0];
+    for(int i = 1; i < 5; i++)
+        if(arr[i] > max) max = arr[i];
+    cout << "Max = " << max;
+    return 0;
+}
+
+/* *********** MEDIUM QUESTION 1 *********** */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int arr[5] = {1, 2, 3, 4, 5};
+    for(int i = 4; i >= 0; i--) {
+        cout << arr[i] << " ";
+    }
+    return 0;
+}
+
+/* *********** MEDIUM QUESTION 2 *********** */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int arr[6] = {1, 4, 5, 6, 7, 8}, even = 0, odd = 0;
+    for(int i = 0; i < 6; i++) {
+        if(arr[i] % 2 == 0) even++;
+        else odd++;
+    }
+    cout << "Even: " << even << ", Odd: " << odd;
+    return 0;
+}
+
+/* *********** MEDIUM QUESTION 3 *********** */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int arr[10] = {9, 4, 6, 1, 8, 0, 3, 5, 2, 7};
+    for(int i = 0; i < 10; i++) {
+        for(int j = i+1; j < 10; j++) {
+            if(arr[j] < arr[i]) swap(arr[i], arr[j]);
+        }
+    }
+    for(int i = 0; i < 10; i++) cout << arr[i] << " ";
+    return 0;
+}
+
+/* ********** DIFFICULT QUESTION 1 ********** */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int a[5] = {1, 3, 5, 7, 9}, b[5] = {2, 4, 6, 8, 10}, c[10];
+    int i = 0, j = 0, k = 0;
+    while(i < 5 && j < 5) {
+        if(a[i] < b[j]) c[k++] = a[i++];
+        else c[k++] = b[j++];
+    }
+    while(i < 5) c[k++] = a[i++];
+    while(j < 5) c[k++] = b[j++];
+    for(i = 0; i < 10; i++) cout << c[i] << " ";
+    return 0;
+}
+
+/* ********** DIFFICULT QUESTION 2 ********** */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int arr[] = {1, 2, 2, 3, 4, 4, 5}, size = 7;
+    for(int i = 0; i < size; i++) {
+        for(int j = i+1; j < size;) {
+            if(arr[i] == arr[j]) {
+                for(int k = j; k < size - 1; k++) arr[k] = arr[k+1];
+                size--;
+            } else j++;
+        }
+    }
+    for(int i = 0; i < size; i++) cout << arr[i] << " ";
+    return 0;
+}
+
+/* ********** DIFFICULT QUESTION 3 ********** */
+
+#include <iostream>
+using namespace std;
+int main() {
+    int arr[] = {1, 2, 3, 4, 5}, n = 5, k = 2;
+    int temp[5];
+    for(int i = 0; i < n; i++) {
+        temp[(i + k) % n] = arr[i];
+    }
+    for(int i = 0; i < n; i++) {
+        cout << temp[i] << " ";
+    }
+    return 0;
+}

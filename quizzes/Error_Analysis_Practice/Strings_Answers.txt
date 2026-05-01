@@ -1,0 +1,35 @@
+// ========== STRINGS FIXED ==========
+
+/// Q1
+int main() {
+    string name = "John";
+    cout << name;
+}
+
+/// Q2
+int main() {
+    char str[10];
+    cin >> str;
+    cout << str;
+}
+
+/// Q3
+// Fix: Not enough space for null terminator
+int main() {
+    char str[6] = "Hello";
+    cout << str;
+}
+
+/// Q4
+int main() {
+    string s1 = "Hi", s2 = "There";
+    string s3 = s1 + s2;
+    cout << s3;
+}
+
+/// Q5
+int main() {
+    string text;
+    getline(cin, text);
+    cout << text;
+}

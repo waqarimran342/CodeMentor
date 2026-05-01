@@ -1,0 +1,110 @@
+ ************************************************************************************
+			    LOOPS
+ ************************************************************************************
+
+	Loops in C++ allow you to execute a block of code multiple times as long as a given condition is true.
+
+There are **three main types of loops** in C++:
+
+----------------------------------------------------------
+1. **FOR LOOP** - Best when number of iterations is known
+----------------------------------------------------------
+
+SYNTAX:
+		for(initialization; condition; update) {
+		    // code to repeat
+		}
+
+EXAMPLE:
+		for(int i = 1; i <= 5; i++) {
+		    cout << i << " ";
+		}
+		// Output: 1 2 3 4 5
+
+EXPLANATION:
+		- Initialization: runs once at the beginning.
+		- Condition: checked before each iteration.
+		- Update: runs after each iteration.
+
+USE CASE:
+		- Counting loops, iterating arrays.
+
+SPECIAL NOTES:
+		- All three parts (init; condition; update) are optional:
+		  Example: for(;;) creates an infinite loop.
+
+------------------------------------------------------------------
+2. **WHILE LOOP** - Best when condition-based repetition is needed
+------------------------------------------------------------------
+
+SYNTAX:
+		while(condition) {
+		    // code to repeat
+		}
+
+EXAMPLE:
+		int i = 1;
+		while(i <= 5) {
+		    cout << i << " ";
+		    i++;
+		}
+		// Output: 1 2 3 4 5
+
+EXPLANATION:
+		- Condition is checked *before* each iteration.
+		- If condition is false initially, loop doesn't execute.
+
+USE CASE:
+		- Repeating until a dynamic condition becomes false (e.g., user input).
+
+SPECIAL NOTES:
+		- Risk of infinite loop if condition is never false.
+		- Initialization must be done before, and update inside the loop.
+
+-----------------------------------------------------------------------
+3. **DO-WHILE LOOP** - Best when you want the loop to run at least once
+-----------------------------------------------------------------------
+
+SYNTAX:
+		do {
+		    // code to repeat
+		} while(condition);
+
+EXAMPLE:
+		int i = 1;
+		do {
+		    cout << i << " ";
+		    i++;
+		} while(i <= 5);
+		// Output: 1 2 3 4 5
+
+EXPLANATION:
+		- Condition is checked *after* the first execution.
+		- Code inside `do` block always runs at least once.
+
+USE CASE:
+		- Menu-driven programs, input validation loops.
+
+SPECIAL NOTES:
+		- Ends with a semicolon after `while(condition);`
+
+-------------------------------------------------------
+Control Statements (work in all loops):
+-------------------------------------------------------
+		- `break`: exits the loop immediately.
+		- `continue`: skips current iteration, jumps to next.
+
+EXAMPLE:
+		for(int i = 1; i <= 5; i++) {
+		    if(i == 3) continue;
+		    cout << i << " ";
+		}
+		// Output: 1 2 4 5
+
+-------------------------------------------------------
+Summary:
+-------------------------------------------------------
+		- Use **for** when the number of iterations is known.
+		- Use **while** when repetition depends on a condition.
+		- Use **do-while** when code must run at least once regardless of the condition.
+__________________________________________________________________________________________________

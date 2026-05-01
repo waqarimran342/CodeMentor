@@ -1,0 +1,35 @@
+/* ----------------------------------------- */
+/*                OPERATORS                  */
+/* ----------------------------------------- */
+
+/* ************ BASIC EXAMPLE 1 ************ */
+
+int a = 5, b = 3;
+cout << a + b;
+
+/* ************ BASIC EXAMPLE 2 ************ */
+
+int x = 10;
+x += 5;
+cout << x;
+
+/* ************ NORMAL EXAMPLE 1 ************ */
+
+int a = 6, b = 4;
+cout << "Bitwise AND: " << (a & b);
+
+/* ************ NORMAL EXAMPLE 2 ************ */
+
+int x = 7;
+cout << "Post-increment: " << x++ << ", New: " << x;
+
+/* ************ HARD EXAMPLE 1 ************ */
+
+int x = 5;
+int y = (x > 0) ? 10 : -10;
+cout << y;
+
+/* ************ HARD EXAMPLE 2 ************ */
+
+bool a = true, b = false;
+cout << (a && !b) << " " << (a || b);

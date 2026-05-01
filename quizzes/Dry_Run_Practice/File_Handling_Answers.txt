@@ -1,0 +1,22 @@
+/* ----------------------------------------- */
+/*             FILE_HANDLING                 */
+/* ----------------------------------------- */
+
+/* *********** DRY RUN OUTPUT 1 ************ */
+File demo.txt will contain: Hi
+
+/* *********** DRY RUN OUTPUT 2 ************ */
+File nums.txt will contain: 5 10
+
+/* *********** DRY RUN OUTPUT 3 ************ */
+(Assuming data.txt contains: Hello World)
+Output: Hello
+
+/* *********** DRY RUN OUTPUT 4 ************ */
+File test.txt will contain:
+100
+200
+
+/* *********** DRY RUN OUTPUT 5 ************ */
+(Assuming msg.txt contains: Hello)
+Output: H

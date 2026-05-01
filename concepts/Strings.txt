@@ -1,0 +1,27 @@
+ ************************************************************************************
+			 STRINGS
+ ************************************************************************************
+
+STRING HANDLING:
+		- Character arrays
+		- std::string class
+
+		char str[] = "Hello";
+		string s = "Hello";
+
+FUNCTIONS (string class):
+		s.length(), s.append(), s.substr(), s.find(), s.erase()
+
+EXAMPLE:
+		string name;
+		cin >> name;
+
+		getline(cin, name); // for full line
+
+KEY POINTS:
+		- Prefer std::string for ease and safety.
+		- + operator can concatenate strings.
+
+EXCEPTION:
+		char arrays need null terminator '\0' manually.
+____________________________________________________________________________________

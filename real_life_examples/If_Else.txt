@@ -1,0 +1,49 @@
+/****************************************************/
+/*                     IF_ELSE                      */
+/****************************************************/
+
+/************************************************************
+*  EXPLANATION:                                            *
+*  If-else statements let your program decide which      *
+*  path to take based on conditions. For example,        *
+*  deciding if someone can vote or assigning grades       *
+*  based on marks.                                        *
+************************************************************/
+
+
+/***************** EXAMPLE 1: AGE ELIGIBILITY TO VOTE *****************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int age;
+    cout << "Enter your age: ";
+    cin >> age;
+
+    if (age >= 18) cout << "You are eligible to vote.";
+    else cout << "You are not eligible to vote.";
+
+    return 0;
+}
+
+
+/************ EXAMPLE 2: GRADING SYSTEM WITH MULTIPLE CONDITIONS ************/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int marks;
+    cout << "Enter marks: ";
+    cin >> marks;
+
+    if (marks >= 90) cout << "Grade A";
+    else if (marks >= 75) cout << "Grade B";
+    else if (marks >= 60) cout << "Grade C";
+    else cout << "Fail";
+
+    return 0;
+}
+
+______________________________________________________________________________

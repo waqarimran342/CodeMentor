@@ -1,0 +1,47 @@
+/* ----------------------------------------- */
+/*              OPERATORS - QUESTIONS        */
+/* ----------------------------------------- */
+
+/* ************ EASY QUESTION 1 ************ */
+
+Take two numbers and print their sum, difference, and product.
+
+  
+/* ************ EASY QUESTION 2 ************ */
+
+Input two numbers and use relational operators to check which one is greater.
+
+  
+/* ************ EASY QUESTION 3 ************ */
+
+Use a logical operator to check if a number is between 10 and 100.
+
+  
+/* *********** MEDIUM QUESTION 1 *********** */
+
+Write a program that shows the result of `++a` and `a++` with explanation.
+
+  
+/* *********** MEDIUM QUESTION 2 *********** */
+
+Use assignment operators to add 10 to a variable and multiply it by 2.
+
+  
+/* *********** MEDIUM QUESTION 3 *********** */
+
+Take a number and check if it is divisible by both 3 and 5 using logical operators.
+
+  
+/* ********** DIFFICULT QUESTION 1 ********** */
+
+Use all arithmetic operators with two inputs and print the results.
+
+  
+/* ********** DIFFICULT QUESTION 2 ********** */
+
+Use a ternary operator to print `"Even"` or `"Odd"` for a given number.
+
+  
+/* ********** DIFFICULT QUESTION 3 ********** */
+
+Use logical AND, OR, and NOT to evaluate complex conditions and display true/false.

@@ -1,0 +1,31 @@
+// ========== DATA TYPES ==========
+
+/// Q1
+int main() {
+    int x = "5";
+    cout << x;
+}
+
+/// Q2
+int main() {
+    char c = "A";
+    cout << c;
+}
+
+/// Q3
+int main() {
+    float num = 5.25.3;
+    cout << num;
+}
+
+/// Q4
+int main() {
+    bool flag = "true";
+    cout << flag;
+}
+
+/// Q5
+int main() {
+    long int val = 9999999999999999999999999;
+    cout << val;
+}
